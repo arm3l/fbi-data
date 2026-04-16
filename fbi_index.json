@@ -3,8 +3,8 @@
     "description": "Fake Book Index — base de données des titres de jazz standards et leurs références dans les fake books et volumes play-along (Hal Leonard, Sher Music, Aebersold, et autres)",
     "entries_count": 10466,
     "books_count": 93,
-    "last_updated": "2026-04-14",
-    "version": "0.9.7"
+    "last_updated": "2026-04-16",
+    "version": "2026.04.1"
   },
   "books": [
     {
