@@ -1,10 +1,10 @@
 {
   "_meta": {
     "description": "Fake Book Index — base de données des titres de jazz standards et leurs références dans les fake books et volumes play-along (Hal Leonard, Sher Music, Aebersold, et autres)",
-    "entries_count": 10466,
-    "books_count": 93,
-    "last_updated": "2026-04-16",
-    "version": "2026.04.1"
+    "entries_count": 10470,
+    "books_count": 94,
+    "last_updated": "2026-05-03",
+    "version": "2026.04.2"
   },
   "books": [
     {
@@ -329,6 +329,12 @@
       "file": "Charlie Parker OmniBook - Atlantic",
       "name": "Charlie Parker OmniBook",
       "pub": "Atlantic",
+      "cls": "pub-misc"
+    },
+    {
+      "file": "Just Standards Real Book - Warner Bros",
+      "name": "Just Standards Real Book",
+      "pub": "Warner Bros",
       "cls": "pub-misc"
     },
     {
@@ -1142,7 +1148,7 @@
     },
     {
       "title": "'S Wonderful",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -1176,6 +1182,10 @@
         {
           "book": "Blue Book",
           "page": "211"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "292"
         }
       ]
     },
@@ -1871,7 +1881,7 @@
     },
     {
       "title": "A-Tisket, A-Tasket",
-      "composer": "",
+      "composer": "Ella Fitzgerald/Van Alexander",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -1880,6 +1890,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "38"
         }
       ]
     },
@@ -2781,7 +2795,7 @@
     },
     {
       "title": "After You",
-      "composer": "Mike Stern",
+      "composer": "Cole Porter",
       "occurrences": [
         {
           "book": "Real Book 3",
@@ -2790,6 +2804,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "1"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "10"
         }
       ]
     },
@@ -3362,7 +3380,7 @@
     },
     {
       "title": "Ain't Misbehavin'",
-      "composer": "Thomas Fats Waller",
+      "composer": "Fats Waller/Harry Brooks/Andy Razaf",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -3453,6 +3471,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "894"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "9"
         }
       ]
     },
@@ -3530,7 +3552,7 @@
     },
     {
       "title": "Ain't She Sweet",
-      "composer": "Jack Yellen & Milton Ager",
+      "composer": "Milton Ager/Jack Yellen",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -3571,6 +3593,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "752"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "12"
         }
       ]
     },
@@ -3892,7 +3918,7 @@
     },
     {
       "title": "Al Di La",
-      "composer": "",
+      "composer": "Carlo Donida/Ervin Drake/Mogol",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -3909,6 +3935,10 @@
         {
           "book": "The Book",
           "page": "448"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "13"
         }
       ]
     },
@@ -4197,7 +4227,7 @@
     },
     {
       "title": "Alice In Wonderland",
-      "composer": "Fain/Hillard",
+      "composer": "Sammy Fain/Bob Hilliard",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -4272,6 +4302,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "13"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "14"
         }
       ]
     },
@@ -5063,12 +5097,16 @@
         {
           "book": "The Book",
           "page": "20"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "15"
         }
       ]
     },
     {
       "title": "All Or Nothing At All",
-      "composer": "Arthur Altman",
+      "composer": "Arthur Altman/Jack Lawrence",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -5146,6 +5184,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "163"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "16"
         }
       ]
     },
@@ -5255,7 +5297,7 @@
     },
     {
       "title": "All The Things You Are",
-      "composer": "Jerome Kern",
+      "composer": "Jerome Kern/Oscar Hammerstein II",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -5396,6 +5438,10 @@
           "key": "Ab",
           "tempo": "140",
           "track": "3"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "18"
         }
       ]
     },
@@ -5443,7 +5489,7 @@
     },
     {
       "title": "All The Way",
-      "composer": "Cahn/Van Heusen",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -5469,6 +5515,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "19"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "20"
         }
       ]
     },
@@ -5537,6 +5587,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "21"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "22"
         }
       ]
     },
@@ -5708,7 +5762,7 @@
     },
     {
       "title": "Almost Like Being In Love",
-      "composer": "Alan Jay Lerner",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -5770,6 +5824,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "7"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "24"
         }
       ]
     },
@@ -6249,7 +6307,7 @@
     },
     {
       "title": "Am I Blue",
-      "composer": "Clarke & Akst",
+      "composer": "Harry Akst/Grant Clarke",
       "occurrences": [
         {
           "book": "Firehouse Jazz Band",
@@ -6286,6 +6344,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "864"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "26"
         }
       ]
     },
@@ -7935,6 +7997,10 @@
         {
           "book": "The Book",
           "page": "182"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "28"
         }
       ]
     },
@@ -8269,7 +8335,7 @@
     },
     {
       "title": "April In Paris",
-      "composer": "Vernon Duke",
+      "composer": "Vernon Duke/E.Y. Harburg",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -8326,6 +8392,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "33"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "30"
         }
       ]
     },
@@ -9299,6 +9369,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "38"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "32"
         }
       ]
     },
@@ -9486,7 +9560,7 @@
     },
     {
       "title": "At Last",
-      "composer": "Harry Warren",
+      "composer": "Harry Warren/Mack Gordon",
       "occurrences": [
         {
           "book": "Jazz LTD",
@@ -9507,6 +9581,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "34"
         }
       ]
     },
@@ -9538,6 +9616,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "39"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "36"
         }
       ]
     },
@@ -10212,6 +10294,10 @@
         },
         {
           "book": "Real Book 1 (Eb)",
+          "page": "40"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
           "page": "40"
         }
       ]
@@ -13943,6 +14029,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "49"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "44"
         }
       ]
     },
@@ -13972,7 +14062,7 @@
     },
     {
       "title": "Bei mir bist du schön",
-      "composer": "Shalom Secunda",
+      "composer": "Sholom Secunda/Sammy Cahn/Saul Chaplin",
       "occurrences": [
         {
           "book": "Django Fakebook",
@@ -13989,6 +14079,10 @@
         {
           "book": "Real Dixieland Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "46"
         }
       ]
     },
@@ -14462,8 +14556,8 @@
       ]
     },
     {
-      "title": "Bess, You Is My Woman",
-      "composer": "George Gershwin",
+      "title": "Bess, You Is My Woman Now",
+      "composer": "George Gershwin/DuBose Heyward/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -14489,6 +14583,10 @@
         {
           "book": "Real Book 3",
           "page": "28"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "48"
         }
       ]
     },
@@ -14579,7 +14677,7 @@
     },
     {
       "title": "Best Is Yet To Come, The",
-      "composer": "Coleman & Leigh",
+      "composer": "Cy Coleman/Carolyn Leigh",
       "occurrences": [
         {
           "book": "JazzFake",
@@ -14600,6 +14698,10 @@
         {
           "book": "The Book",
           "page": "8"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "50"
         }
       ]
     },
@@ -14677,7 +14779,7 @@
     },
     {
       "title": "The Best Things In Life Are Free",
-      "composer": "",
+      "composer": "B.G. DeSylva/Lew Brown/Ray Henderson",
       "occurrences": [
         {
           "book": "JazzFake",
@@ -14694,6 +14796,10 @@
         {
           "book": "The Book",
           "page": "197"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "47"
         }
       ]
     },
@@ -14810,7 +14916,7 @@
     },
     {
       "title": "Between the Devil and the Deep Blue Sea",
-      "composer": "",
+      "composer": "Harold Arlen/Ted Koehler",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -14832,6 +14938,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "43"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "52"
         }
       ]
     },
@@ -14861,7 +14971,7 @@
     },
     {
       "title": "Bewitched",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -14941,6 +15051,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "48"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "54"
         }
       ]
     },
@@ -15088,7 +15202,7 @@
     },
     {
       "title": "Bidin' My Time",
-      "composer": "Gershwin & Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -15109,6 +15223,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "57"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "56"
         }
       ]
     },
@@ -16255,7 +16373,7 @@
     },
     {
       "title": "Birth Of The Blues",
-      "composer": "Ray Henderson",
+      "composer": "Ray Henderson/B.G. DeSylva/Lew Brown",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -16320,6 +16438,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "25"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "58"
         }
       ]
     },
@@ -18247,7 +18369,7 @@
     },
     {
       "title": "Blue Moon",
-      "composer": "Richard Rodgers",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -18316,6 +18438,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "31"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "60"
         }
       ]
     },
@@ -18465,7 +18591,7 @@
     },
     {
       "title": "Blue Room",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -18539,6 +18665,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "62"
         }
       ]
     },
@@ -20033,7 +20163,7 @@
     },
     {
       "title": "Blues In The Night",
-      "composer": "Mercer/Arlen",
+      "composer": "Harold Arlen/Johnny Mercer",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -20063,6 +20193,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "67"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "64"
         }
       ]
     },
@@ -20638,7 +20772,7 @@
     },
     {
       "title": "Body And Soul",
-      "composer": "Johnny Green",
+      "composer": "Johnny Green/Edward Heyman/Robert Sour/Frank Eyton",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -20817,6 +20951,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "46"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "59"
         }
       ]
     },
@@ -21253,7 +21391,7 @@
     },
     {
       "title": "Boogie Woogie Bugle Boy",
-      "composer": "",
+      "composer": "Don Raye/Hughie Prince",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -21262,6 +21400,10 @@
         {
           "book": "Real Vocal Book 3 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "66"
         }
       ]
     },
@@ -21841,7 +21983,7 @@
     },
     {
       "title": "Boulevard Of Broken Dreams, The",
-      "composer": "",
+      "composer": "Harry Warren/Al Dubin",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -21850,6 +21992,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "68"
         }
       ]
     },
@@ -24126,7 +24272,7 @@
     },
     {
       "title": "But Not For Me",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -24220,6 +24366,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "50"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "70"
         }
       ]
     },
@@ -24568,7 +24718,7 @@
     },
     {
       "title": "Bye Bye Blackbird",
-      "composer": "Ray Henderson",
+      "composer": "Ray Henderson/Mort Dixon",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -24679,6 +24829,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "51"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "72"
         }
       ]
     },
@@ -25642,7 +25796,7 @@
     },
     {
       "title": "Can't Help Lovin' Dat Man",
-      "composer": "Jerome Kern & Oscar Hammerstein II",
+      "composer": "Jerome Kern/Oscar Hammerstein II",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -25677,6 +25831,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "952"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "74"
         }
       ]
     },
@@ -25918,7 +26076,7 @@
     },
     {
       "title": "Candy",
-      "composer": "",
+      "composer": "Mack David/Joan Whitney/Alex Kramer",
       "occurrences": [
         {
           "book": "JazzFake",
@@ -25935,6 +26093,10 @@
         {
           "book": "Real Vocal Book 1 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "76"
         }
       ]
     },
@@ -27802,7 +27964,7 @@
     },
     {
       "title": "Charade",
-      "composer": "Mercer/Mancini",
+      "composer": "Henry Mancini/Johnny Mercer",
       "occurrences": [
         {
           "book": "Real Book 4 - Hal Leonard",
@@ -27819,6 +27981,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "79"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "78"
         }
       ]
     },
@@ -28673,7 +28839,7 @@
     },
     {
       "title": "Cherry Pink and Apple Blossom White",
-      "composer": "",
+      "composer": "Mack David/Florence Larue/Louiguy",
       "occurrences": [
         {
           "book": "Real Book 1 (Sixth Edition) - Hal Leonard",
@@ -28686,6 +28852,10 @@
         {
           "book": "Real Vocal Book 1 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "80"
         }
       ]
     },
@@ -31118,7 +31288,7 @@
     },
     {
       "title": "Come Fly With Me",
-      "composer": "Cahn/Van Heusen",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -31144,6 +31314,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "78"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "84"
         }
       ]
     },
@@ -31194,7 +31368,7 @@
     },
     {
       "title": "Come Rain Or Come Shine",
-      "composer": "Mercer/Arlen",
+      "composer": "Harold Arlen/Johnny Mercer",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -31269,6 +31443,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "63"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "81"
         }
       ]
     },
@@ -34421,6 +34599,10 @@
         {
           "book": "Think Of One",
           "page": "551"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "86"
         }
       ]
     },
@@ -35513,7 +35695,7 @@
     },
     {
       "title": "Dancing In The Dark",
-      "composer": "Dietz/ Schwartz",
+      "composer": "Jean Schwartz/Howard Dietz",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -35554,6 +35736,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "99"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "88"
         }
       ]
     },
@@ -35604,7 +35790,7 @@
     },
     {
       "title": "Dancing On The Ceiling",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -35687,6 +35873,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "101"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "90"
         }
       ]
     },
@@ -36428,7 +36618,7 @@
     },
     {
       "title": "Day In The Life Of A Fool (Manha De Carnaval), A",
-      "composer": "",
+      "composer": "Luiz Bonfá",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -36447,6 +36637,10 @@
         {
           "book": "Real Vocal Book 1 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "87"
         }
       ]
     },
@@ -36478,7 +36672,7 @@
     },
     {
       "title": "Day In, Day Out",
-      "composer": "Mercer & Bloom",
+      "composer": "Rube Bloom/Johnny Mercer",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -36507,6 +36701,10 @@
           "key": "C",
           "tempo": "208",
           "track": "D2,1"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "92"
         }
       ]
     },
@@ -36658,7 +36856,7 @@
     },
     {
       "title": "Days Of Wine And Roses",
-      "composer": "Mercer/Mancini",
+      "composer": "Henry Mancini/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -36745,6 +36943,10 @@
         {
           "book": "Vocal Real Book",
           "page": "97"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "94"
         }
       ]
     },
@@ -37425,7 +37627,7 @@
     },
     {
       "title": "Deep Purple",
-      "composer": "Parish & De Rose",
+      "composer": "Peter DeRose/Mitchell Parish",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -37466,6 +37668,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "72"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "95"
         }
       ]
     },
@@ -39683,7 +39889,7 @@
     },
     {
       "title": "Do Nothin' Till You Hear From Me",
-      "composer": "Duke Ellington",
+      "composer": "Duke Ellington/Bob Russell",
       "occurrences": [
         {
           "book": "Duke Ellington Real Book - Hal Leonard",
@@ -39701,6 +39907,10 @@
         {
           "book": "Real Vocal Book 1 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "96"
         }
       ]
     },
@@ -40034,9 +40244,13 @@
       ]
     },
     {
-      "title": "Dock Of The Bay (Sittin' On), The",
-      "composer": "",
+      "title": "Dock Of The Bay, The",
+      "composer": "Otis Redding/Steve Cropper",
       "occurrences": [
+        {
+          "book": "Standards Real Book - Sher",
+          "page": "111"
+        },
         {
           "book": "Real R&B Book - Hal Leonard",
           "page": ""
@@ -40044,16 +40258,10 @@
         {
           "book": "Real Rock Book 1 - Hal Leonard",
           "page": ""
-        }
-      ]
-    },
-    {
-      "title": "Dock Of The Bay, The",
-      "composer": "Otis Redding",
-      "occurrences": [
+        },
         {
-          "book": "Standards Real Book - Sher",
-          "page": "111"
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "98"
         }
       ]
     },
@@ -40635,7 +40843,7 @@
     },
     {
       "title": "Don't Blame Me",
-      "composer": "Jimmy Mchugh",
+      "composer": "Jimmy McHugh/Dorothy Fields",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -40725,6 +40933,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "98"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "100"
         }
       ]
     },
@@ -40760,11 +40972,15 @@
     },
     {
       "title": "Don't Cry For Me Argentina",
-      "composer": "",
+      "composer": "Andrew Lloyd Webber/Tim Rice",
       "occurrences": [
         {
           "book": "Real Latin Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "102"
         }
       ]
     },
@@ -40887,7 +41103,7 @@
     },
     {
       "title": "Don't Fence Me In",
-      "composer": "",
+      "composer": "Cole Porter",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -40904,6 +41120,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "97"
         }
       ]
     },
@@ -40967,7 +41187,7 @@
     },
     {
       "title": "Don't Get Around Much Anymore",
-      "composer": "Duke Ellington",
+      "composer": "Duke Ellington/Bob Russell",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -41079,6 +41299,10 @@
         {
           "book": "Spaces 2",
           "page": "67"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "104"
         }
       ]
     },
@@ -44071,7 +44295,7 @@
     },
     {
       "title": "East Of The Sun (And West Of The Moon)",
-      "composer": "",
+      "composer": "Brooks Bowman",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -44081,6 +44305,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "105"
         }
       ]
     },
@@ -44481,6 +44709,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "129"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "106"
         }
       ]
     },
@@ -44521,7 +44753,7 @@
     },
     {
       "title": "Ebb Tide",
-      "composer": "Sigman/Maxwell",
+      "composer": "Robert Maxwell/Carl Sigman",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -44538,6 +44770,10 @@
         {
           "book": "Spaces 3",
           "page": "178"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "107"
         }
       ]
     },
@@ -45895,7 +46131,7 @@
     },
     {
       "title": "Embraceable You",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -45982,12 +46218,16 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "85"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "108"
         }
       ]
     },
     {
       "title": "Emily",
-      "composer": "Johnny Mandel",
+      "composer": "Johnny Mandel/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -46045,6 +46285,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "167"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "110"
         }
       ]
     },
@@ -47265,11 +47509,15 @@
     },
     {
       "title": "Evergreen (A Star Is Born)",
-      "composer": "",
+      "composer": "Barbra Streisand/Paul Williams",
       "occurrences": [
         {
           "book": "The Book",
           "page": "99"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "112"
         }
       ]
     },
@@ -47777,6 +48025,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "131"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "114"
         }
       ]
     },
@@ -48675,7 +48927,7 @@
     },
     {
       "title": "Falling In Love With Love",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -48753,6 +49005,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "147"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "116"
         }
       ]
     },
@@ -49045,8 +49301,8 @@
       ]
     },
     {
-      "title": "Fascinating Rhythm",
-      "composer": "George Gershwin",
+      "title": "Fascinatin' Rhythm",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -49080,16 +49336,14 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "766"
-        }
-      ]
-    },
-    {
-      "title": "Fascinating Rhythm (Lady Be Good)",
-      "composer": "George Gershwin",
-      "occurrences": [
+        },
         {
           "book": "The Book",
           "page": "191"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "118"
         }
       ]
     },
@@ -50136,7 +50390,7 @@
     },
     {
       "title": "Fine Romance",
-      "composer": "Kern/Fields",
+      "composer": "Jerome Kern/Dorothy Fields",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -50198,6 +50452,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "133"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "21"
         }
       ]
     },
@@ -50637,11 +50895,15 @@
     },
     {
       "title": "Five Foot Two, Eyes Of Blue",
-      "composer": "",
+      "composer": "Ray Henderson/Morgan Lewis/Joe Young",
       "occurrences": [
         {
           "book": "The Book",
           "page": "219"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "115"
         }
       ]
     },
@@ -51604,7 +51866,7 @@
     },
     {
       "title": "Foggy Day",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -51677,6 +51939,10 @@
         {
           "book": "Vocal Real Book",
           "page": "5"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "120"
         }
       ]
     },
@@ -52859,7 +53125,7 @@
     },
     {
       "title": "Forty-Second Street",
-      "composer": "",
+      "composer": "Harry Warren/Al Dubin",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -52872,6 +53138,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "123"
         }
       ]
     },
@@ -54428,11 +54698,15 @@
     },
     {
       "title": "From A Distance",
-      "composer": "",
+      "composer": "Julie Gold",
       "occurrences": [
         {
           "book": "Real Pop Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "124"
         }
       ]
     },
@@ -54661,7 +54935,7 @@
     },
     {
       "title": "Frosty The Snow Man",
-      "composer": "",
+      "composer": "Steve Nelson/Walter \"Jack\" Rollins",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -54691,6 +54965,10 @@
         {
           "book": "JazzFake",
           "page": "127"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "126"
         }
       ]
     },
@@ -55516,8 +55794,8 @@
       ]
     },
     {
-      "title": "Gee Baby Ain't I Good to You",
-      "composer": "Don Redman",
+      "title": "Gee Baby, Ain't I Good To You",
+      "composer": "Don Redman/Andy Razaf",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -55564,13 +55842,7 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "902"
-        }
-      ]
-    },
-    {
-      "title": "Gee Baby, Ain't I Good To",
-      "composer": "Don Redman",
-      "occurrences": [
+        },
         {
           "book": "Blue Book",
           "page": "148"
@@ -55590,6 +55862,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "104"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "128"
         }
       ]
     },
@@ -57998,11 +58274,15 @@
     },
     {
       "title": "Goldfinger",
-      "composer": "",
+      "composer": "John Barry",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "130"
         }
       ]
     },
@@ -58372,7 +58652,7 @@
     },
     {
       "title": "Good Life, The",
-      "composer": "Reardon/Distel",
+      "composer": "Sacha Distel/Jack Reardon",
       "occurrences": [
         {
           "book": "JazzFake",
@@ -58389,6 +58669,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "155"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "131"
         }
       ]
     },
@@ -59430,7 +59714,7 @@
     },
     {
       "title": "Greatest Love Of All, The",
-      "composer": "",
+      "composer": "Michael Masser/Linda Creed",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -59439,6 +59723,10 @@
         {
           "book": "Real Pop Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "132"
         }
       ]
     },
@@ -61250,7 +61538,7 @@
     },
     {
       "title": "Happy Days Are Here Again",
-      "composer": "",
+      "composer": "Jack Yellen/Milton Ager",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -61259,6 +61547,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "134"
         }
       ]
     },
@@ -61970,7 +62262,7 @@
     },
     {
       "title": "Have You Met Miss Jones",
-      "composer": "Richard Rodgers",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -62073,6 +62365,10 @@
         {
           "book": "Vocal Real Book",
           "page": "169"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "136"
         }
       ]
     },
@@ -62088,7 +62384,7 @@
     },
     {
       "title": "Have Yourself A Merry Little Christmas",
-      "composer": "",
+      "composer": "Hugh Martin/Ralph Blane",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -62109,6 +62405,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "138"
         }
       ]
     },
@@ -63891,7 +64191,7 @@
     },
     {
       "title": "Hey There",
-      "composer": "Adler & Ross",
+      "composer": "Richard Adler/Jerry Ross",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -63944,6 +64244,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "180"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "139"
         }
       ]
     },
@@ -64291,11 +64595,15 @@
     },
     {
       "title": "High Noon",
-      "composer": "",
+      "composer": "Dimitri Tiomkin/Ned Washington",
       "occurrences": [
         {
           "book": "Spaces 3",
           "page": "176"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "140"
         }
       ]
     },
@@ -64817,11 +65125,15 @@
     },
     {
       "title": "Hold Me, Thrill Me, Kiss Me",
-      "composer": "",
+      "composer": "Harry Noble",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "142"
         }
       ]
     },
@@ -66187,7 +66499,7 @@
     },
     {
       "title": "How About You",
-      "composer": "Ralph Freed / Burton Lane",
+      "composer": "Burton Lane/Arthur Freed",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -66225,6 +66537,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "143"
         }
       ]
     },
@@ -66479,7 +66795,7 @@
     },
     {
       "title": "How High The Moon",
-      "composer": "Morgan Lewis",
+      "composer": "Arthur Hamilton/Morgan Lewis",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -66561,12 +66877,16 @@
           "key": "G",
           "tempo": "220",
           "track": "8"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "144"
         }
       ]
     },
     {
       "title": "How Insensitive",
-      "composer": "Antonio Carlos Jobim",
+      "composer": "Antonio Carlos Jobim/Vinicius de Moraes/Norman Gimbel",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -66647,6 +66967,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "172"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "145"
         }
       ]
     },
@@ -66688,7 +67012,7 @@
     },
     {
       "title": "How Little We Know",
-      "composer": "Springer & Leigh",
+      "composer": "Hoagy Carmichael/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -66713,6 +67037,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "173"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "146"
         }
       ]
     },
@@ -67654,7 +67982,7 @@
     },
     {
       "title": "I Can't Get Started",
-      "composer": "Vernon Duke",
+      "composer": "Vernon Duke/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -67763,6 +68091,10 @@
         {
           "book": "Monster One",
           "page": "255"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "148"
         }
       ]
     },
@@ -67803,7 +68135,7 @@
     },
     {
       "title": "I Can't Give You Anything But Love",
-      "composer": "McHugh & Fields",
+      "composer": "Jimmy McHugh/Dorothy Fields",
       "occurrences": [
         {
           "book": "Django Fakebook",
@@ -67842,6 +68174,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "176"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "147"
         }
       ]
     },
@@ -68091,6 +68427,10 @@
         {
           "book": "Real Book 3",
           "page": "124"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "150"
         }
       ]
     },
@@ -68106,7 +68446,7 @@
     },
     {
       "title": "I Could Have Danced All Night",
-      "composer": "",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -68127,6 +68467,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "152"
         }
       ]
     },
@@ -68142,7 +68486,7 @@
     },
     {
       "title": "I Could Write A Book",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -68250,6 +68594,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "190"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "154"
         }
       ]
     },
@@ -68279,7 +68627,7 @@
     },
     {
       "title": "I Cover The Waterfront",
-      "composer": "Green/Heyman",
+      "composer": "Johnny Green/Edward Heyman",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -68357,6 +68705,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "152"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "156"
         }
       ]
     },
@@ -68402,7 +68754,7 @@
     },
     {
       "title": "I Didn't Know About You",
-      "composer": "Duke Ellington",
+      "composer": "Duke Ellington/Bob Russell",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -68436,6 +68788,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "185"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "158"
         }
       ]
     },
@@ -68459,7 +68815,7 @@
     },
     {
       "title": "I Didn't Know What Time It Was",
-      "composer": "Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -68517,6 +68873,10 @@
         {
           "book": "Real Vocal Book 1",
           "page": "204"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "160"
         }
       ]
     },
@@ -69001,6 +69361,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "158"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "162"
         }
       ]
     },
@@ -69263,7 +69627,7 @@
     },
     {
       "title": "I Got Rhythm",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -69350,6 +69714,10 @@
           "key": "Ab",
           "tempo": "116",
           "track": "4"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "164"
         }
       ]
     },
@@ -69579,7 +69947,7 @@
     },
     {
       "title": "I Had The Craziest Dream",
-      "composer": "Warren & Gordon",
+      "composer": "Harry Warren/Mack Gordon",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -69588,6 +69956,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "197"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "166"
         }
       ]
     },
@@ -70214,6 +70586,10 @@
         {
           "book": "Monster One",
           "page": "53"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "167"
         }
       ]
     },
@@ -70456,6 +70832,10 @@
         {
           "book": "The Book",
           "page": "412"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "168"
         }
       ]
     },
@@ -70597,11 +70977,15 @@
     },
     {
       "title": "I Love You for Sentimental Reasons",
-      "composer": "",
+      "composer": "William Best/Deek Watson",
       "occurrences": [
         {
           "book": "Real Book 1 (Sixth Edition) - Hal Leonard",
           "page": "147"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "122"
         }
       ]
     },
@@ -70647,7 +71031,7 @@
     },
     {
       "title": "I Loves You Porgy",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "JazzFake",
@@ -70669,6 +71053,10 @@
         {
           "book": "Real Broadway Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "170"
         }
       ]
     },
@@ -70938,7 +71326,7 @@
     },
     {
       "title": "I Only Have Eyes For You",
-      "composer": "Dubin/Warren",
+      "composer": "Harry Warren/Al Dubin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -70991,6 +71379,10 @@
         {
           "book": "Think Of One",
           "page": "223"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "172"
         }
       ]
     },
@@ -71634,7 +72026,7 @@
     },
     {
       "title": "I Thought About You",
-      "composer": "Jimmy Van Heusen",
+      "composer": "Jimmy Van Heusen/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -71724,6 +72116,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "174"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "171"
         }
       ]
     },
@@ -71871,7 +72267,7 @@
     },
     {
       "title": "I Wanna Be Around",
-      "composer": "",
+      "composer": "Johnny Mercer/Sadie Vimmerstedt",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -71888,6 +72284,10 @@
         {
           "book": "Spaces 4",
           "page": "153"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "176"
         }
       ]
     },
@@ -72286,7 +72686,7 @@
     },
     {
       "title": "I Will Wait For You",
-      "composer": "Michel Legrand/Gimbe",
+      "composer": "Michel Legrand/Norman Gimbel",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -72331,6 +72731,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "179"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "178"
         }
       ]
     },
@@ -72402,7 +72806,7 @@
     },
     {
       "title": "I Wish I Knew",
-      "composer": "Warren & Gordon",
+      "composer": "Harry Warren/Mack Gordon",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -72427,6 +72831,10 @@
         {
           "book": "Think Of One",
           "page": "585"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "177"
         }
       ]
     },
@@ -72483,7 +72891,7 @@
     },
     {
       "title": "I Wish You Love",
-      "composer": "Charles Trenet",
+      "composer": "Charles Trenet/Albert Beach",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -72512,6 +72920,10 @@
         {
           "book": "Real Book 3",
           "page": "130"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "180"
         }
       ]
     },
@@ -72584,7 +72996,7 @@
     },
     {
       "title": "I Won't Dance",
-      "composer": "Hammerstein & Kahn",
+      "composer": "Jerome Kern/Oscar Hammerstein II/Dorothy Fields/Otto Harbach/Jimmy McHugh",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -72618,6 +73030,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "190"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "182"
         }
       ]
     },
@@ -73353,7 +73769,7 @@
     },
     {
       "title": "I'll Remember April",
-      "composer": "Rayne/De Pal/Johnstone",
+      "composer": "Don Raye/Gene DePaul/Patricia Johnston",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -73443,6 +73859,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "195"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "184"
         }
       ]
     },
@@ -73458,7 +73878,7 @@
     },
     {
       "title": "I'll See You In My Dreams",
-      "composer": "Jones & Kahn",
+      "composer": "Isham Jones/Gus Kahn",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -73495,6 +73915,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "504"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "185"
         }
       ]
     },
@@ -74506,7 +74930,7 @@
     },
     {
       "title": "I'm In The Mood For Love",
-      "composer": "McHugh Field",
+      "composer": "Jimmy McHugh/Dorothy Fields",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -74539,6 +74963,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "186"
         }
       ]
     },
@@ -74839,7 +75267,7 @@
     },
     {
       "title": "I'm Thru With Love",
-      "composer": "",
+      "composer": "Matty Malnick/Gus Kahn/Jay Livingston",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -74856,6 +75284,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "187"
         }
       ]
     },
@@ -75077,7 +75509,7 @@
     },
     {
       "title": "I've Got A Crush On You",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -75112,6 +75544,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "231"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "188"
         }
       ]
     },
@@ -75280,7 +75716,7 @@
     },
     {
       "title": "I've Got The World On A String",
-      "composer": "Harold Arlen",
+      "composer": "Harold Arlen/Ted Koehler",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -75335,6 +75771,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "32B"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "190"
         }
       ]
     },
@@ -75405,6 +75845,10 @@
         {
           "book": "Real Book 3",
           "page": "144"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "192"
         }
       ]
     },
@@ -75472,7 +75916,7 @@
     },
     {
       "title": "I've Grown Accustomed to Her Face",
-      "composer": "Alan Lerner",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -75490,6 +75934,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "191"
         }
       ]
     },
@@ -75964,7 +76412,7 @@
     },
     {
       "title": "If Ever I Would Leave You",
-      "composer": "",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -75986,6 +76434,10 @@
         {
           "book": "Real Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "194"
         }
       ]
     },
@@ -77613,6 +78065,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "163"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "196"
         }
       ]
     },
@@ -78310,6 +78766,10 @@
         {
           "book": "Real Vocal Book 1 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "198"
         }
       ]
     },
@@ -79931,7 +80391,7 @@
     },
     {
       "title": "Is You Is, Or Is You Ain't (Ma' Baby)",
-      "composer": "",
+      "composer": "Louis Jordan/Billy Austin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -79953,6 +80413,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "216"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "200"
         }
       ]
     },
@@ -80378,7 +80842,7 @@
     },
     {
       "title": "It Ain't Necessarily So",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/DuBose Heyward/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -80404,6 +80868,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "245"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "202"
         }
       ]
     },
@@ -80721,7 +81189,7 @@
     },
     {
       "title": "It Had To Be You",
-      "composer": "Kahn/Isham Jones",
+      "composer": "Gus Kahn/Isham Jones",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -80779,6 +81247,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "173"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "204"
         }
       ]
     },
@@ -81092,6 +81564,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "251"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "197"
         }
       ]
     },
@@ -81534,7 +82010,7 @@
     },
     {
       "title": "It's Been a Long Long Time",
-      "composer": "",
+      "composer": "Jule Styne/Sammy Cahn",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -81547,6 +82023,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "206"
         }
       ]
     },
@@ -81850,7 +82330,7 @@
     },
     {
       "title": "It's Only A Paper Moon",
-      "composer": "Harold Arlen",
+      "composer": "Harold Arlen/Billy Rose/E.Y. Harburg",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -81924,6 +82404,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "175"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "207"
         }
       ]
     },
@@ -82722,11 +83206,15 @@
     },
     {
       "title": "James Bond Theme",
-      "composer": "",
+      "composer": "Monty Norman",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "208"
         }
       ]
     },
@@ -83680,7 +84168,7 @@
     },
     {
       "title": "Jingle Bell Rock",
-      "composer": "",
+      "composer": "Joe Beal/Jim Boothe",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -83705,6 +84193,10 @@
         {
           "book": "Real Christmas Book - Hal Leonard",
           "page": "112"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "209"
         }
       ]
     },
@@ -85593,7 +86085,7 @@
     },
     {
       "title": "Just A Gigolo",
-      "composer": "",
+      "composer": "Leonello Casucci/Irving Caesar",
       "occurrences": [
         {
           "book": "Firehouse Jazz Band",
@@ -85602,6 +86094,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "210"
         }
       ]
     },
@@ -85839,7 +86335,7 @@
     },
     {
       "title": "Just In Time",
-      "composer": "Irvin Berlin",
+      "composer": "Jule Styne/Betty Comden/Adolph Green",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -85909,6 +86405,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "192"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "211"
         }
       ]
     },
@@ -86064,6 +86564,10 @@
         {
           "book": "Real Book 3",
           "page": "166"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "212"
         }
       ]
     },
@@ -88345,7 +88849,7 @@
     },
     {
       "title": "La Vie En Rose",
-      "composer": "Edith Piaf",
+      "composer": "Mack David/Édith Piaf/Louiguy",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -88358,6 +88862,10 @@
         {
           "book": "Great Gig Book (Blue Book)",
           "page": "290"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "214"
         }
       ]
     },
@@ -88593,7 +89101,7 @@
     },
     {
       "title": "Lady Is a Tramp",
-      "composer": "Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -88660,6 +89168,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "265"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "216"
         }
       ]
     },
@@ -89706,7 +90218,7 @@
     },
     {
       "title": "Laura",
-      "composer": "David Raskin",
+      "composer": "David Raksin/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -89783,6 +90295,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "203"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "218"
         }
       ]
     },
@@ -90786,7 +91302,7 @@
     },
     {
       "title": "Let It Snow! Let It Snow! Let It Snow!",
-      "composer": "",
+      "composer": "Jule Styne/Sammy Cahn",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -90804,6 +91320,10 @@
         {
           "book": "Real Christmas Book - Hal Leonard",
           "page": "122"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "215"
         }
       ]
     },
@@ -91047,7 +91567,7 @@
     },
     {
       "title": "Let's Call The Whole Thing Off",
-      "composer": "Gershwin & Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -91069,6 +91589,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "269"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "220"
         }
       ]
     },
@@ -91168,11 +91692,15 @@
     },
     {
       "title": "Let's Do It (Let's Fall In Love)",
-      "composer": "",
+      "composer": "Cole Porter",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "222"
         }
       ]
     },
@@ -91573,7 +92101,7 @@
     },
     {
       "title": "Li'l Darlin'",
-      "composer": "Hefti",
+      "composer": "Neal Hefti",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -91610,6 +92138,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "224"
         }
       ]
     },
@@ -92327,7 +92859,7 @@
     },
     {
       "title": "Lime House Blues",
-      "composer": "Phillip Braham",
+      "composer": "Philip Braham/Douglas Furber",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -92410,6 +92942,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "116"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "225"
         }
       ]
     },
@@ -95828,6 +96364,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "222"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "230"
         }
       ]
     },
@@ -95853,7 +96393,7 @@
     },
     {
       "title": "Love Is A Many Splendored Thing",
-      "composer": "Fain & Webster/As played by Keith Jarrett",
+      "composer": "Sammy Fain/Paul Francis Webster",
       "occurrences": [
         {
           "book": "Standards Real Book - Sher",
@@ -95870,6 +96410,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "232"
         }
       ]
     },
@@ -95904,7 +96448,7 @@
     },
     {
       "title": "Love Is Here To Stay",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -95946,6 +96490,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "234"
         }
       ]
     },
@@ -96704,7 +97252,7 @@
     },
     {
       "title": "Lover Man",
-      "composer": "J. Davis / R. Ramirez / J. Sherman",
+      "composer": "Jimmy Davis/Ram Ramirez/Jimmy Sherman",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -96773,6 +97321,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "224"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "236"
         }
       ]
     },
@@ -97298,7 +97850,7 @@
     },
     {
       "title": "Lullaby Of Broadway",
-      "composer": "Dubin/Warren",
+      "composer": "Harry Warren/Al Dubin",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -97319,6 +97871,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "293"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "238"
         }
       ]
     },
@@ -97794,7 +98350,7 @@
     },
     {
       "title": "Mack The Knife",
-      "composer": "Weill & Blitzstein",
+      "composer": "Kurt Weill/Marc Blitzstein",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -97849,6 +98405,10 @@
         {
           "book": "Real Vocal Book 1",
           "page": "268"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "240"
         }
       ]
     },
@@ -99033,7 +99593,7 @@
     },
     {
       "title": "Man And A Woman",
-      "composer": "",
+      "composer": "Francis Lai/Pierre Barouh/Jerry Keller",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -99046,6 +99606,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "258"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "242"
         }
       ]
     },
@@ -99085,7 +99649,7 @@
     },
     {
       "title": "Man I Love",
-      "composer": "Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Django Fakebook",
@@ -99139,6 +99703,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "229"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "244"
         }
       ]
     },
@@ -99215,7 +99783,7 @@
     },
     {
       "title": "Man That Got Away, The",
-      "composer": "Harold Arlen",
+      "composer": "Harold Arlen/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -99232,6 +99800,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "297"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "246"
         }
       ]
     },
@@ -100889,7 +101461,7 @@
     },
     {
       "title": "Meditation",
-      "composer": "Antonio Carlos Jobim",
+      "composer": "Antonio Carlos Jobim/Newton Mendonça/Norman Gimbel",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -100966,6 +101538,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "265"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "248"
         }
       ]
     },
@@ -103688,7 +104264,7 @@
     },
     {
       "title": "Misty",
-      "composer": "Errol Garner",
+      "composer": "Erroll Garner/Johnny Burke",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -103811,6 +104387,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "362"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "250"
         }
       ]
     },
@@ -104203,7 +104783,7 @@
     },
     {
       "title": "Moment To Moment",
-      "composer": "Mercer & Mancini",
+      "composer": "Henry Mancini/Johnny Mercer",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -104221,6 +104801,10 @@
         {
           "book": "Real Vocal Book 3 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "251"
         }
       ]
     },
@@ -105345,7 +105929,7 @@
     },
     {
       "title": "Moonglow",
-      "composer": "Will Hudson",
+      "composer": "Will Hudson/Eddie DeLange/Irving Mills",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -105415,6 +105999,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "244"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "252"
         }
       ]
     },
@@ -105501,7 +106089,7 @@
     },
     {
       "title": "Moonlight In Vermont",
-      "composer": "Karl Suessdorf",
+      "composer": "Karl Suessdorf/John Blackburn",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -105567,6 +106155,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "188"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "253"
         }
       ]
     },
@@ -105600,7 +106192,7 @@
     },
     {
       "title": "Moonlight Serenade",
-      "composer": "Glen Miller",
+      "composer": "Glenn Miller/Mitchell Parish",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -105625,6 +106217,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "217"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "254"
         }
       ]
     },
@@ -105875,7 +106471,7 @@
     },
     {
       "title": "More I See You",
-      "composer": "Gordon/Warren",
+      "composer": "Harry Warren/Mack Gordon",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -105936,6 +106532,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "256"
         }
       ]
     },
@@ -106009,7 +106609,7 @@
     },
     {
       "title": "More Than You Know",
-      "composer": "Vincent Youmans",
+      "composer": "Edward Eliscu/Billy Rose/Vincent Youmans",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -106067,6 +106667,10 @@
         {
           "book": "New Real Book 2 Eb - Sher",
           "page": "399"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "257"
         }
       ]
     },
@@ -106492,7 +107096,7 @@
     },
     {
       "title": "Mountain Greenery",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -106526,6 +107130,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "311"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "258"
         }
       ]
     },
@@ -108183,7 +108791,7 @@
     },
     {
       "title": "My Funny Valentine",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -108300,6 +108908,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "267"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "260"
         }
       ]
     },
@@ -108615,7 +109227,7 @@
     },
     {
       "title": "My Kind Of Town (Chicago Is)",
-      "composer": "",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -108624,6 +109236,10 @@
         {
           "book": "Real Vocal Book 3 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "262"
         }
       ]
     },
@@ -109730,7 +110346,7 @@
     },
     {
       "title": "My Way",
-      "composer": "",
+      "composer": "Paul Anka/Claude François/Jacques Revaux/Gilles Thibault",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -109751,6 +110367,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "286"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "264"
         }
       ]
     },
@@ -111099,7 +111719,7 @@
     },
     {
       "title": "Never On Sunday",
-      "composer": "",
+      "composer": "Billy Towne/Manos Hadjidakis",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -111116,6 +111736,10 @@
         {
           "book": "The Book",
           "page": "260"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "266"
         }
       ]
     },
@@ -111281,7 +111905,7 @@
     },
     {
       "title": "Nevertheless (I'm In Love With You)",
-      "composer": "",
+      "composer": "Bert Kalmar/Harry Ruby",
       "occurrences": [
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
@@ -111294,6 +111918,10 @@
         {
           "book": "JazzFake",
           "page": "270"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "268"
         }
       ]
     },
@@ -111881,7 +112509,7 @@
     },
     {
       "title": "Nice Work if You Can Get It",
-      "composer": "Gershwin & Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -111907,6 +112535,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "323"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "272"
         }
       ]
     },
@@ -112048,6 +112680,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "277"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "274"
         }
       ]
     },
@@ -117187,7 +117823,7 @@
     },
     {
       "title": "On The Street Where You Live",
-      "composer": "Alan Lerner",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -117216,6 +117852,10 @@
         {
           "book": "Real Book 3",
           "page": "228"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "276"
         }
       ]
     },
@@ -117493,7 +118133,7 @@
     },
     {
       "title": "Once In A While",
-      "composer": "Michael Edwards",
+      "composer": "Bud Green/Michael Edwards",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -117558,6 +118198,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "274"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "271"
         }
       ]
     },
@@ -120098,7 +120742,7 @@
     },
     {
       "title": "Over The Rainbow",
-      "composer": "Harold Arlen",
+      "composer": "Harold Arlen/E.Y. Harburg",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -120151,6 +120795,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "246"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "278"
         }
       ]
     },
@@ -121043,7 +121691,7 @@
     },
     {
       "title": "Party's Over",
-      "composer": "Bety Comden",
+      "composer": "Jule Styne/Betty Comden/Adolph Green",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -121076,6 +121724,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "280"
         }
       ]
     },
@@ -122070,7 +122722,7 @@
     },
     {
       "title": "Pennies From Heaven",
-      "composer": "John Burke / Arthur Johnson",
+      "composer": "Johnny Burke/Arthur Johnston",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -122128,6 +122780,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "286"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "281"
         }
       ]
     },
@@ -122414,7 +123070,7 @@
     },
     {
       "title": "People",
-      "composer": "Bob Merrill / Julie Styne",
+      "composer": "Jule Styne/Bob Merrill",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -122447,6 +123103,10 @@
         {
           "book": "Real Book 3",
           "page": "242"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "282"
         }
       ]
     },
@@ -123658,7 +124318,7 @@
     },
     {
       "title": "Pieces Of Dreams (Little Boy Lost)",
-      "composer": "",
+      "composer": "Michel Legrand/Alan Bergman",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -123667,6 +124327,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "226"
         }
       ]
     },
@@ -123729,7 +124393,7 @@
     },
     {
       "title": "Pink Panther, The",
-      "composer": "",
+      "composer": "Henry Mancini",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -123739,6 +124403,10 @@
         {
           "book": "Real Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "284"
         }
       ]
     },
@@ -125122,7 +125790,7 @@
     },
     {
       "title": "Prelude To A Kiss",
-      "composer": "Duke Ellington",
+      "composer": "Duke Ellington/Irving Mills/Mack Gordon",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -125229,6 +125897,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "251"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "285"
         }
       ]
     },
@@ -126337,7 +127009,7 @@
     },
     {
       "title": "Quando, Quando, Quando (Tell Me When)",
-      "composer": "",
+      "composer": "Tony Renis/Alberto Testa/Pat Boone",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -126346,6 +127018,10 @@
         {
           "book": "Real Latin Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "286"
         }
       ]
     },
@@ -126805,6 +127481,10 @@
         {
           "book": "Real Book of Blues - Wise",
           "page": "203"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "288"
         }
       ]
     },
@@ -130504,7 +131184,7 @@
     },
     {
       "title": "Rock-A-Bye Your Baby With A Dixie Melody",
-      "composer": "",
+      "composer": "Jean Schwartz/Sam M. Lewis/Joe Young",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -130513,6 +131193,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "290"
         }
       ]
     },
@@ -133504,7 +134188,7 @@
     },
     {
       "title": "Satin Doll",
-      "composer": "Duke Ellington",
+      "composer": "Duke Ellington/Billy Strayhorn/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -133631,6 +134315,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "260"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "294"
         }
       ]
     },
@@ -134753,7 +135441,7 @@
     },
     {
       "title": "Second Time Around",
-      "composer": "Jimmy Van Heusen",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -134794,6 +135482,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "287"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "295"
         }
       ]
     },
@@ -134861,7 +135553,7 @@
     },
     {
       "title": "Secret Love",
-      "composer": "Webster & Fain",
+      "composer": "Sammy Fain/Paul Francis Webster",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -134910,6 +135602,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "170"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "296"
         }
       ]
     },
@@ -135222,6 +135918,10 @@
         {
           "book": "Real Vocal Book 1",
           "page": "362"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "298"
         }
       ]
     },
@@ -135463,7 +136163,7 @@
     },
     {
       "title": "September In The Rain",
-      "composer": "Dubin/Warren",
+      "composer": "Harry Warren/Al Dubin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -135529,12 +136229,16 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "313"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "300"
         }
       ]
     },
     {
       "title": "September Of My Years, The",
-      "composer": "",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -135543,12 +136247,16 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "299"
         }
       ]
     },
     {
       "title": "September Song",
-      "composer": "Kurt Weill",
+      "composer": "Kurt Weill/Maxwell Anderson",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -135646,6 +136354,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "314"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "302"
         }
       ]
     },
@@ -136469,7 +137181,7 @@
     },
     {
       "title": "Shadow Of Your Smile",
-      "composer": "Johnny Mandel",
+      "composer": "Johnny Mandel/Paul Francis Webster",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -136559,6 +137271,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "167"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "304"
         }
       ]
     },
@@ -137159,7 +137875,7 @@
     },
     {
       "title": "She's Funny That Way",
-      "composer": "",
+      "composer": "Neil Moret/Richard A. Whiting",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -137181,6 +137897,10 @@
         {
           "book": "Real Vocal Book 3 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "306"
         }
       ]
     },
@@ -138810,7 +139530,7 @@
     },
     {
       "title": "Since I Fell For You",
-      "composer": "Johnson",
+      "composer": "Buddy Johnson",
       "occurrences": [
         {
           "book": "Pocket Changes 1",
@@ -138831,6 +139551,10 @@
         {
           "book": "Real Vocal Book 1",
           "page": "372"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "308"
         }
       ]
     },
@@ -139714,7 +140438,7 @@
     },
     {
       "title": "Skylark",
-      "composer": "Hoagy Carmichael",
+      "composer": "Hoagy Carmichael/Johnny Mercer",
       "occurrences": [
         {
           "book": "Spaces 4",
@@ -139780,6 +140504,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "273"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "305"
         }
       ]
     },
@@ -140014,7 +140742,7 @@
     },
     {
       "title": "Sleigh Ride",
-      "composer": "",
+      "composer": "Leroy Anderson/Mitchell Parish",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -140027,6 +140755,10 @@
         {
           "book": "Blue Book",
           "page": "488"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "310"
         }
       ]
     },
@@ -140259,7 +140991,7 @@
     },
     {
       "title": "Slow Hot Wind",
-      "composer": "Henry Mancini",
+      "composer": "Henry Mancini/Norman Gimbel",
       "occurrences": [
         {
           "book": "Genuine Book",
@@ -140280,6 +141012,10 @@
         {
           "book": "Real Book 2 (Eb)",
           "page": "334"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "312"
         }
       ]
     },
@@ -140444,7 +141180,7 @@
     },
     {
       "title": "Small World",
-      "composer": "",
+      "composer": "Stephen Sondheim/Jule Styne",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -140462,6 +141198,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "313"
         }
       ]
     },
@@ -140616,7 +141356,7 @@
     },
     {
       "title": "Smoke Gets In Your Eyes",
-      "composer": "Jerome Kern/Harbach",
+      "composer": "Jerome Kern/Otto Harbach",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -140690,6 +141430,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "329"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "314"
         }
       ]
     },
@@ -141666,7 +142410,7 @@
     },
     {
       "title": "Softly As I Leave You",
-      "composer": "",
+      "composer": "Antonio De Vita/Hal Shaper",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -141679,12 +142423,16 @@
         {
           "book": "Spaces 4",
           "page": "166"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "315"
         }
       ]
     },
     {
       "title": "Softly As In A Morning Sunrise",
-      "composer": "Sigmund Romberg",
+      "composer": "Sigmund Romberg/Oscar Hammerstein II",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -141766,6 +142514,10 @@
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "163"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "316"
         }
       ]
     },
@@ -142941,7 +143693,7 @@
     },
     {
       "title": "Someone To Watch Over Me",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -142999,6 +143751,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "331"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "318"
         }
       ]
     },
@@ -143472,11 +144228,15 @@
     },
     {
       "title": "Somewhere My Love (Dr. Zhivago)",
-      "composer": "",
+      "composer": "Maurice Jarre/Paul Francis Webster",
       "occurrences": [
         {
           "book": "The Book",
           "page": "54"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "320"
         }
       ]
     },
@@ -144033,7 +144793,7 @@
     },
     {
       "title": "The Song Is You",
-      "composer": "Kern/Hammers",
+      "composer": "Jerome Kern/Oscar Hammerstein II",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -144142,6 +144902,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "374"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "322"
         }
       ]
     },
@@ -145751,7 +146515,7 @@
     },
     {
       "title": "Speak Low",
-      "composer": "Kurt Weill",
+      "composer": "Kurt Weill/Ogden Nash",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -145857,6 +146621,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "337"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "324"
         }
       ]
     },
@@ -147357,7 +148125,7 @@
     },
     {
       "title": "Star Dust",
-      "composer": "Hoagy Carmichel",
+      "composer": "Hoagy Carmichael/Mitchell Parish",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -147452,6 +148220,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "340"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "326"
         }
       ]
     },
@@ -147642,7 +148414,7 @@
     },
     {
       "title": "Stars Fell On Alabama",
-      "composer": "Frank Perkins",
+      "composer": "Frank Perkins/Mitchell Parish",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -147699,6 +148471,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "309"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "328"
         }
       ]
     },
@@ -149367,7 +150143,7 @@
     },
     {
       "title": "Strangers In The Night",
-      "composer": "",
+      "composer": "Charles Singleton/Ted Snyder/Bert Kaempfert",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -149384,6 +150160,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "329"
         }
       ]
     },
@@ -150675,11 +151455,15 @@
     },
     {
       "title": "Summer Place (Theme From), A",
-      "composer": "",
+      "composer": "Mack Discant/Max Steiner",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "346"
         }
       ]
     },
@@ -150773,7 +151557,7 @@
     },
     {
       "title": "Summer Wind",
-      "composer": "",
+      "composer": "Hans Bradtke/Henry Meier/Johnny Mercer",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -150791,6 +151575,10 @@
         {
           "book": "Real Book 6 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "330"
         }
       ]
     },
@@ -150820,7 +151608,7 @@
     },
     {
       "title": "Summertime",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/DuBose Heyward/Ira Gershwin",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -150923,6 +151711,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "323"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "331"
         }
       ]
     },
@@ -151018,7 +151810,7 @@
     },
     {
       "title": "Sunday Kind of Love",
-      "composer": "Anita Leonard / Stan Rhodes",
+      "composer": "Barbara Belle/Louis Prima/Anita Leonard/Stan Rhodes",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -151052,6 +151844,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "390"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "332"
         }
       ]
     },
@@ -151170,6 +151966,10 @@
         {
           "book": "Real Book of Blues - Wise",
           "page": "249"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "333"
         }
       ]
     },
@@ -152029,7 +152829,7 @@
     },
     {
       "title": "Sweet Georgia Brown",
-      "composer": "Bernie/Pickard/Casey",
+      "composer": "Ben Bernie/Maceo Pinkard/Kenneth Casey",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -152130,6 +152930,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "353"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "334"
         }
       ]
     },
@@ -153988,7 +154792,7 @@
     },
     {
       "title": "Taking A Chance On Love",
-      "composer": "Vernon Duke",
+      "composer": "Vernon Duke/Ted Fetter/John La Touche",
       "occurrences": [
         {
           "book": "Genuine Book",
@@ -154049,6 +154853,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "358"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "338"
         }
       ]
     },
@@ -154477,7 +155285,7 @@
     },
     {
       "title": "Tea For Two",
-      "composer": "Youmans & Ceasar",
+      "composer": "Vincent Youmans/Irving Caesar",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -154522,6 +155330,10 @@
         {
           "book": "Real Book 3",
           "page": "304"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "340"
         }
       ]
     },
@@ -154541,7 +155353,7 @@
     },
     {
       "title": "Teach Me Tonight",
-      "composer": "Depaul/Cahn",
+      "composer": "Gene DePaul/Sammy Cahn",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -154607,6 +155419,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "398"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "342"
         }
       ]
     },
@@ -155003,11 +155819,15 @@
     },
     {
       "title": "Temptation",
-      "composer": "",
+      "composer": "Arthur Freed/Lew Brown",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "343"
         }
       ]
     },
@@ -156095,7 +156915,7 @@
     },
     {
       "title": "That's Life",
-      "composer": "",
+      "composer": "Dean Kay/Mack Gordon",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -156116,6 +156936,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "344"
         }
       ]
     },
@@ -156285,7 +157109,7 @@
     },
     {
       "title": "The Girl From Ipanema",
-      "composer": "Antonio Carlos Jobim",
+      "composer": "Antonio Carlos Jobim/Vinicius de Moraes/Norman Gimbel",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -156390,6 +157214,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "154"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "129"
         }
       ]
     },
@@ -156740,7 +157568,7 @@
     },
     {
       "title": "Theme From \"New York, New York\"",
-      "composer": "",
+      "composer": "John Kander/Fred Ebb",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -156749,6 +157577,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "348"
         }
       ]
     },
@@ -157456,7 +158288,7 @@
     },
     {
       "title": "There's A Small Hotel",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -157506,6 +158338,10 @@
           "key": "Eb",
           "tempo": "168",
           "track": "4"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "350"
         }
       ]
     },
@@ -157789,7 +158625,7 @@
     },
     {
       "title": "They Can't Take That Away From Me",
-      "composer": "George Gershwin",
+      "composer": "George Gershwin/Ira Gershwin",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -157839,6 +158675,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "372"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "352"
         }
       ]
     },
@@ -161484,7 +162324,7 @@
     },
     {
       "title": "Too Marvelous For Words",
-      "composer": "Mercer/Whiting",
+      "composer": "Richard A. Whiting/Johnny Mercer",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -161513,6 +162353,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "483"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "354"
         }
       ]
     },
@@ -161665,7 +162509,7 @@
     },
     {
       "title": "Toot, Toot, Tootsie (Goodbye)",
-      "composer": "",
+      "composer": "Gus Kahn/Ernie Erdman/Dan Russo/Ted Fiorito",
       "occurrences": [
         {
           "book": "Public Domain Song Anthology - Aperio",
@@ -161683,6 +162527,10 @@
           "key": "C",
           "tempo": "240",
           "track": "15&18"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "355"
         }
       ]
     },
@@ -162955,12 +163803,16 @@
     },
     {
       "title": "Try To Remember",
-      "composer": "",
+      "composer": "Harvey Schmidt/Tom Jones",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
           "page": "108",
           "key": "F"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "356"
         }
       ]
     },
@@ -163993,7 +164845,7 @@
     },
     {
       "title": "Two For The Road",
-      "composer": "Henry Mancini",
+      "composer": "Henry Mancini/Leslie Bricusse",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -164018,6 +164870,10 @@
         {
           "book": "Think Of One",
           "page": "627"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "357"
         }
       ]
     },
@@ -168121,7 +168977,7 @@
     },
     {
       "title": "Watch What Happens",
-      "composer": "Michel Legrande",
+      "composer": "Michel Legrand/Norman Gimbel",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -168216,6 +169072,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "384"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "358"
         }
       ]
     },
@@ -168745,7 +169605,7 @@
     },
     {
       "title": "Way You Look Tonight",
-      "composer": "Jerome Kern",
+      "composer": "Jerome Kern/Dorothy Fields",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -168803,6 +169663,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "388"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "360"
         }
       ]
     },
@@ -169283,7 +170147,7 @@
     },
     {
       "title": "We've Only Just Begun",
-      "composer": "",
+      "composer": "Roger Nichols/Paul Williams",
       "occurrences": [
         {
           "book": "Blue Book",
@@ -169296,6 +170160,10 @@
         {
           "book": "Real Pop Book - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "362"
         }
       ]
     },
@@ -170187,7 +171055,7 @@
     },
     {
       "title": "What a Wonderful World",
-      "composer": "",
+      "composer": "George David Weiss/Bob Thiele",
       "occurrences": [
         {
           "book": "Firehouse Jazz Band",
@@ -170210,6 +171078,10 @@
         {
           "book": "Real Vocal Book 2 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "359"
         }
       ]
     },
@@ -170319,7 +171191,7 @@
     },
     {
       "title": "What Are You Doing the Rest of Your Life",
-      "composer": "Michel Legrande",
+      "composer": "Michel Legrand/Alan Bergman",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -170376,6 +171248,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "356"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "364"
         }
       ]
     },
@@ -170726,6 +171602,10 @@
           "key": "C",
           "tempo": "200",
           "track": "5"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "366"
         }
       ]
     },
@@ -171096,7 +171976,7 @@
     },
     {
       "title": "What's New",
-      "composer": "Bob Haggart",
+      "composer": "Bob Haggart/Johnny Burke",
       "occurrences": [
         {
           "book": "Colorado Cookbook",
@@ -171211,6 +172091,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "391"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "368"
         }
       ]
     },
@@ -171431,7 +172315,7 @@
     },
     {
       "title": "When I Fall In Love",
-      "composer": "Heyman / Young",
+      "composer": "Joe Young/Edward Heyman",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -171513,6 +172397,10 @@
         {
           "book": "Real Book 1 (Eb)",
           "page": "404"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "370"
         }
       ]
     },
@@ -172384,7 +173272,7 @@
     },
     {
       "title": "When You're Smiling (The Whole World Smiles With You)",
-      "composer": "",
+      "composer": "Mark Fisher/Joe Goodwin/Larry Shay",
       "occurrences": [
         {
           "book": "Real Dixieland Book - Hal Leonard",
@@ -172393,6 +173281,10 @@
         {
           "book": "Real Vocal Book 3 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "369"
         }
       ]
     },
@@ -172678,7 +173570,7 @@
     },
     {
       "title": "Where Or When",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -172740,6 +173632,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "529"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "372"
         }
       ]
     },
@@ -173571,7 +174467,7 @@
     },
     {
       "title": "Who's Sorry Now",
-      "composer": "Vert Kalmar, Harry Rubby, Ted Snyder",
+      "composer": "Bert Kalmar/Harry Ruby/Ted Snyder",
       "occurrences": [
         {
           "book": "Real Book 5 - Hal Leonard",
@@ -173600,6 +174496,10 @@
         {
           "book": "Creole Jazz Band (2025)",
           "page": "396"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "374"
         }
       ]
     },
@@ -174511,6 +175411,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "396"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "378"
         }
       ]
     },
@@ -174536,7 +175440,7 @@
     },
     {
       "title": "Wind Beneath My Wings, The",
-      "composer": "",
+      "composer": "Larry Henley/Jeff Silbar",
       "occurrences": [
         {
           "book": "Real Pop Book - Hal Leonard",
@@ -174545,6 +175449,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "380"
         }
       ]
     },
@@ -174847,7 +175755,7 @@
     },
     {
       "title": "Winter Wonderland",
-      "composer": "",
+      "composer": "Felix Bernard/Richard B. Smith",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -174864,6 +175772,10 @@
         {
           "book": "Great Gig Book (Blue Book)",
           "page": "297"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "375"
         }
       ]
     },
@@ -175015,7 +175927,7 @@
     },
     {
       "title": "Witchcraft",
-      "composer": "Cy Coleman",
+      "composer": "Cy Coleman/Carolyn Leigh",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -175078,6 +175990,10 @@
         {
           "book": "New Real Book 1 Eb - Sher",
           "page": "342"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "382"
         }
       ]
     },
@@ -175126,7 +176042,7 @@
     },
     {
       "title": "With A Song In My Heart",
-      "composer": "Richard Rogers/Hart",
+      "composer": "Richard Rodgers/Lorenz Hart",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -175163,6 +176079,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "535"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "384"
         }
       ]
     },
@@ -177006,7 +177926,7 @@
     },
     {
       "title": "Yesterdays",
-      "composer": "Jerome Kern",
+      "composer": "Jerome Kern/Otto Harbach",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -177114,6 +178034,10 @@
         {
           "book": "Real Book Vol 1 (Pocket Ed)",
           "page": "457"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "383"
         }
       ]
     },
@@ -177344,7 +178268,7 @@
     },
     {
       "title": "You Are So Beautiful",
-      "composer": "Billy Preston",
+      "composer": "Billy Preston/Bruce Fisher",
       "occurrences": [
         {
           "book": "Hal Leonard Jazz Play-Along Series",
@@ -177374,6 +178298,10 @@
         {
           "book": "New Real Book 3 Eb - Sher",
           "page": "367"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "386"
         }
       ]
     },
@@ -177859,6 +178787,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "543"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "388"
         }
       ]
     },
@@ -178056,7 +178988,7 @@
     },
     {
       "title": "You Go To My Head",
-      "composer": "Gillespie/Coots",
+      "composer": "J. Fred Coots/Haven Gillespie",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -178137,6 +179069,10 @@
         {
           "book": "Real Vocal Book 1",
           "page": "484"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "390"
         }
       ]
     },
@@ -178238,7 +179174,7 @@
     },
     {
       "title": "You Light Up My Life",
-      "composer": "",
+      "composer": "Joe Brooks",
       "occurrences": [
         {
           "book": "Real Pop Book - Hal Leonard",
@@ -178251,6 +179187,10 @@
         {
           "book": "The Book",
           "page": "344"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "387"
         }
       ]
     },
@@ -178362,7 +179302,7 @@
     },
     {
       "title": "You Make Me Feel So Young",
-      "composer": "Gordon/Myrow",
+      "composer": "Josef Myrow/Mack Gordon",
       "occurrences": [
         {
           "book": "Great Gig Book (Blue Book)",
@@ -178379,6 +179319,10 @@
         {
           "book": "Standards Real Book - Sher",
           "page": "549"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "392"
         }
       ]
     },
@@ -178429,7 +179373,7 @@
     },
     {
       "title": "You Must Have Been A Beautiful Baby",
-      "composer": "",
+      "composer": "Harry Warren/Johnny Mercer",
       "occurrences": [
         {
           "book": "Real Book 6 - Hal Leonard",
@@ -178438,6 +179382,10 @@
         {
           "book": "Real Vocal Book 4 - Hal Leonard",
           "page": ""
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "394"
         }
       ]
     },
@@ -178607,7 +179555,7 @@
     },
     {
       "title": "You Stepped Out Of A Dream",
-      "composer": "Nacio Herb Brown",
+      "composer": "Lew Brown/Gus Kahn",
       "occurrences": [
         {
           "book": "Aebersold Play-A-Long Series",
@@ -178712,6 +179660,10 @@
         {
           "book": "Real Book 2 (Bb)",
           "page": "402"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "395"
         }
       ]
     },
@@ -180706,11 +181658,15 @@
     },
     {
       "title": "Bill Bailey, Won't You Please Come Home?",
-      "composer": "",
+      "composer": "Hughie Cannon",
       "occurrences": [
         {
           "book": "Real Easy Book 3 - Sher",
           "page": "7"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "53"
         }
       ]
     },
@@ -183584,11 +184540,15 @@
     },
     {
       "title": "T'aint Nobody's Business If I Do",
-      "composer": "Porter Grainger & Everett Robbins",
+      "composer": "Porter Grainger/Everett Robbins",
       "occurrences": [
         {
           "book": "Creole Jazz Band (2025)",
           "page": "86"
+        },
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "336"
         }
       ]
     },
@@ -184280,6 +185240,76 @@
           "book": "Aebersold Play-A-Long Series",
           "page": "53",
           "track": "12"
+        }
+      ]
+    },
+    {
+      "title": "Be A Clown",
+      "composer": "Cole Porter",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "42"
+        }
+      ]
+    },
+    {
+      "title": "Come Blow Your Horn",
+      "composer": "Jimmy Van Heusen/Sammy Cahn",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "82"
+        }
+      ]
+    },
+    {
+      "title": "I Remember It Well",
+      "composer": "Alan Jay Lerner/Frederick Loewe",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "174"
+        }
+      ]
+    },
+    {
+      "title": "Little Drummer Boy, The",
+      "composer": "Katherine K. Davis/Henry Onorati/Harry Simeone",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "228"
+        }
+      ]
+    },
+    {
+      "title": "New York, New York (On The Town)",
+      "composer": "Leonard Bernstein/Betty Comden/Adolph Green",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "270"
+        }
+      ]
+    },
+    {
+      "title": "Thunderball",
+      "composer": "John Barry",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "347"
+        }
+      ]
+    },
+    {
+      "title": "Why Can't I",
+      "composer": "Richard Rodgers/Lorenz Hart",
+      "occurrences": [
+        {
+          "book": "Just Standards Real Book - Warner Bros",
+          "page": "376"
         }
       ]
     }
