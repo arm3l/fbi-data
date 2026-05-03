@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indexed Fake Books — Fake Book Index</title>
+<meta name="description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<meta name="keywords" content="fake book index, jazz standards, real book, hal leonard fake book, sher music, aebersold play-along, jazz play-along, jazz reference, jazz musician app">
+<meta name="author" content="arm3l">
+<link rel="canonical" href="https://arm3l.github.io/fbi-data/books-list.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Indexed Fake Books — Fake Book Index">
+<meta property="og:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<meta property="og:url" content="https://arm3l.github.io/fbi-data/books-list.html">
+<meta property="og:site_name" content="Fake Book Index">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Indexed Fake Books — Fake Book Index">
+<meta name="twitter:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Fake Book Index","operatingSystem":"Android","applicationCategory":"MusicApplication","description":"Searchable index of jazz standards across major fake books and play-along series. Android app for working jazz musicians. One-time purchase, no subscription.","url":"https://arm3l.github.io/fbi-data/","downloadUrl":"https://play.google.com/store/apps/details?id=com.fakebookindex","installUrl":"https://play.google.com/store/apps/details?id=com.fakebookindex","author":{"@type":"Person","name":"arm3l"},"offers":{"@type":"Offer","category":"https://schema.org/paid","availability":"https://schema.org/InStock"}}</script>
+<style>
+:root{--ink:#1a1208;--paper:#f5f0e8;--cream:#ede8da;--gold:#c8922a;--gold2:#e8b84b;--staff:#c4bba8;--staffd:#a09880}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"IBM Plex Sans",sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;padding:40px 20px}
+.wrap{max-width:840px;margin:0 auto}
+header{border-bottom:2px solid var(--gold);padding-bottom:20px;margin-bottom:32px}
+header .logo{display:inline-block;font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:18px;background:var(--gold);color:var(--ink);padding:3px 12px;letter-spacing:-0.5px}
+h1{font-family:"Playfair Display",Georgia,serif;font-size:36px;font-weight:700;margin:18px 0 10px;letter-spacing:-0.5px;line-height:1.15}
+.tagline{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--staffd);text-transform:uppercase;letter-spacing:1.5px}
+.intro{background:var(--cream);padding:20px 24px;border-left:3px solid var(--gold);margin:24px 0;font-size:15px}
+.intro strong{font-weight:600}
+.cta{margin:24px 0 12px}
+.cta a{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:12px 22px;font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:1px;text-transform:uppercase;border:2px solid var(--gold);transition:all .15s}
+.cta a:hover{background:var(--gold);color:var(--ink)}
+.stats{display:flex;flex-wrap:wrap;gap:24px;margin:24px 0;padding:18px 0;border-top:1px solid var(--staff);border-bottom:1px solid var(--staff)}
+.stat{font-family:"IBM Plex Mono",monospace}
+.stat .num{font-size:24px;font-weight:500;color:var(--gold);display:block}
+.stat .lbl{font-size:11px;color:var(--staffd);text-transform:uppercase;letter-spacing:1px}
+.publisher{margin:36px 0}
+h2{font-family:"Playfair Display",Georgia,serif;font-size:22px;font-weight:700;margin-bottom:14px;padding-bottom:6px;border-bottom:1px solid var(--staff)}
+h2 .count{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--staffd);font-weight:400;letter-spacing:1px;text-transform:uppercase}
+h2 .vol-count{font-family:"IBM Plex Sans",sans-serif;font-size:13px;color:var(--gold);font-weight:400;font-style:italic}
+.book-list{list-style:none}
+.book-list li{display:flex;justify-content:space-between;align-items:baseline;padding:7px 0;border-bottom:1px dotted var(--staff)}
+.book-list li:last-child{border-bottom:none}
+.book-name{font-size:15px}
+.occ{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--staffd);white-space:nowrap;padding-left:12px}
+.section-intro{font-size:14px;color:var(--ink);margin-bottom:18px;font-style:italic;opacity:0.85}
+.vol-group{margin:16px 0;border:1px solid var(--staff);background:var(--cream);border-radius:2px}
+.vol-group summary{padding:14px 18px;cursor:pointer;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.vol-group summary::-webkit-details-marker{display:none}
+.vol-group summary::before{content:"▸";color:var(--gold);margin-right:8px;display:inline-block;transition:transform .15s}
+.vol-group[open] summary::before{transform:rotate(90deg)}
+.vol-group summary:hover{background:var(--cream2)}
+.vol-meta{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--staffd);text-transform:uppercase;letter-spacing:1px;font-weight:400}
+.volume-list{list-style:none;padding:0 18px 14px;max-height:none}
+.volume-list li{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0;border-bottom:1px dotted var(--staff);gap:10px}
+.volume-list li:last-child{border-bottom:none}
+.vol-num{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--gold);font-weight:500;min-width:64px;flex-shrink:0}
+.vol-title{font-size:14px;flex:1}
+footer{margin-top:48px;padding-top:20px;border-top:2px solid var(--gold);font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--staffd);text-align:center}
+footer a{color:var(--gold);text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media(max-width:600px){body{padding:20px 14px}h1{font-size:28px}.stats{gap:14px}.stat .num{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="logo">FBI</span>
+  <h1>Indexed Fake Books</h1>
+  <p class="tagline">The complete list of titles searchable in the Fake Book Index app</p>
+</header>
+
+<div class="intro">
+  <p><strong>Fake Book Index</strong> is an Android app that lets jazz musicians instantly find which fake book contains the standard they need to play. Whether you're looking up a tune for a gig, a session, or practice, FBI tells you exactly which book and page to open.</p>
+</div>
+
+<div class="cta">
+  <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">▼ Get it on Google Play</a>
+</div>
+
+<div class="stats">
+  <div class="stat"><span class="num">10,470</span><span class="lbl">Indexed entries</span></div>
+  <div class="stat"><span class="num">92</span><span class="lbl">Fake books</span></div>
+  <div class="stat"><span class="num">133</span><span class="lbl">Aebersold vols</span></div>
+  <div class="stat"><span class="num">177</span><span class="lbl">HL Play-Along vols</span></div>
+</div>
+
+<section class="publisher">
+  <h2>Hal Leonard <span class="count">— 34 books</span></h2>
+  <ul class="book-list">
+    <li><span class="book-name">Bill Evans Fake Book</span> <span class="occ">57 entries</span></li>
+    <li><span class="book-name">Bud Powell Real Book</span> <span class="occ">44 entries</span></li>
+    <li><span class="book-name">Charles Mingus Fake Book</span> <span class="occ">55 entries</span></li>
+    <li><span class="book-name">Charlie Parker Real Book</span> <span class="occ">62 entries</span></li>
+    <li><span class="book-name">Duke Ellington Real Book</span> <span class="occ">103 entries</span></li>
+    <li><span class="book-name">Miles Davis Real Book</span> <span class="occ">57 entries</span></li>
+    <li><span class="book-name">Miles Davis Real Book (2nd Ed.)</span> <span class="occ">70 entries</span></li>
+    <li><span class="book-name">Pat Metheny Songbook</span> <span class="occ">167 entries</span></li>
+    <li><span class="book-name">Real Bebop Book</span> <span class="occ">201 entries</span></li>
+    <li><span class="book-name">Real Bluegrass Book</span> <span class="occ">302 entries</span></li>
+    <li><span class="book-name">Real Blues Book</span> <span class="occ">300 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 (6th Ed)</span> <span class="occ">400 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 (Pocket Ed)</span> <span class="occ">398 entries</span></li>
+    <li><span class="book-name">Real Book Vol 2 (2nd Ed)</span> <span class="occ">400 entries</span></li>
+    <li><span class="book-name">Real Book Vol 4</span> <span class="occ">400 entries</span></li>
+    <li><span class="book-name">Real Book Vol 5</span> <span class="occ">400 entries</span></li>
+    <li><span class="book-name">Real Book Vol 6</span> <span class="occ">400 entries</span></li>
+    <li><span class="book-name">Real Broadway Book</span> <span class="occ">250 entries</span></li>
+    <li><span class="book-name">Real Christmas Book</span> <span class="occ">150 entries</span></li>
+    <li><span class="book-name">Real Country Book</span> <span class="occ">277 entries</span></li>
+    <li><span class="book-name">Real Dixieland Book</span> <span class="occ">248 entries</span></li>
+    <li><span class="book-name">Real Jazz Solos Book</span> <span class="occ">129 entries</span></li>
+    <li><span class="book-name">Real Latin Book</span> <span class="occ">398 entries</span></li>
+    <li><span class="book-name">Real Pop Book</span> <span class="occ">210 entries</span></li>
+    <li><span class="book-name">Real R&amp;B Book</span> <span class="occ">265 entries</span></li>
+    <li><span class="book-name">Real Rock Book 1</span> <span class="occ">200 entries</span></li>
+    <li><span class="book-name">Real Rock Book 2</span> <span class="occ">200 entries</span></li>
+    <li><span class="book-name">Real Tab Book Vol 1</span> <span class="occ">100 entries</span></li>
+    <li><span class="book-name">Real Vocal Book Vol 1</span> <span class="occ">300 entries</span></li>
+    <li><span class="book-name">Real Vocal Book Vol 2</span> <span class="occ">300 entries</span></li>
+    <li><span class="book-name">Real Vocal Book Vol 3</span> <span class="occ">300 entries</span></li>
+    <li><span class="book-name">Real Vocal Book Vol 4</span> <span class="occ">300 entries</span></li>
+    <li><span class="book-name">Real Worship Book</span> <span class="occ">200 entries</span></li>
+    <li><span class="book-name">Thelonious Monk Fake Book</span> <span class="occ">70 entries</span></li>
+  </ul>
+</section>
+
+<section class="publisher">
+  <h2>Sher Music <span class="count">— 17 books</span></h2>
+  <ul class="book-list">
+    <li><span class="book-name">All Jazz Real Book</span> <span class="occ">205 entries</span></li>
+    <li><span class="book-name">Latin Real Book</span> <span class="occ">179 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 1</span> <span class="occ">236 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 1 (Bb)</span> <span class="occ">225 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 1 (Eb)</span> <span class="occ">225 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 2</span> <span class="occ">226 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 2 (Bb)</span> <span class="occ">218 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 2 (Eb)</span> <span class="occ">218 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 3</span> <span class="occ">201 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 3 (Bb)</span> <span class="occ">196 entries</span></li>
+    <li><span class="book-name">New Real Book Vol 3 (Eb)</span> <span class="occ">196 entries</span></li>
+    <li><span class="book-name">Real Easy Book Vol 1</span> <span class="occ">44 entries</span></li>
+    <li><span class="book-name">Real Easy Book Vol 1 (3-horn)</span> <span class="occ">42 entries</span></li>
+    <li><span class="book-name">Real Easy Book Vol 2</span> <span class="occ">106 entries</span></li>
+    <li><span class="book-name">Real Easy Book Vol 3</span> <span class="occ">63 entries</span></li>
+    <li><span class="book-name">Standards Real Book</span> <span class="occ">268 entries</span></li>
+    <li><span class="book-name">World&#39;s Greatest Fake Book</span> <span class="occ">200 entries</span></li>
+  </ul>
+</section>
+
+<section class="publisher">
+  <h2>Other Publishers <span class="count">— 5 books</span></h2>
+  <ul class="book-list">
+    <li><span class="book-name">Charlie Parker OmniBook</span> <span class="occ">52 entries</span></li>
+    <li><span class="book-name">Just Standards Real Book</span> <span class="occ">250 entries</span></li>
+    <li><span class="book-name">Public Domain Anthology</span> <span class="occ">348 entries</span></li>
+    <li><span class="book-name">Real Book of Blues (Wise)</span> <span class="occ">295 entries</span></li>
+    <li><span class="book-name">Straight Ahead Jazz Fakebook</span> <span class="occ">68 entries</span></li>
+  </ul>
+</section>
+
+<section class="publisher">
+  <h2>Community / Anonymous <span class="count">— 36 books</span></h2>
+  <ul class="book-list">
+    <li><span class="book-name">Blue Book</span> <span class="occ">751 entries</span></li>
+    <li><span class="book-name">Brazilian Jazz Real Book</span> <span class="occ">167 entries</span></li>
+    <li><span class="book-name">Colorado Cookbook</span> <span class="occ">294 entries</span></li>
+    <li><span class="book-name">Contemporary Adventures in Jazz 4</span> <span class="occ">172 entries</span></li>
+    <li><span class="book-name">Creole Jazz Band (2025)</span> <span class="occ">588 entries</span></li>
+    <li><span class="book-name">Django Fakebook</span> <span class="occ">239 entries</span></li>
+    <li><span class="book-name">Don Grolnick Collection</span> <span class="occ">16 entries</span></li>
+    <li><span class="book-name">Eddie Harris Fake Book 1</span> <span class="occ">47 entries</span></li>
+    <li><span class="book-name">Firehouse Jazz Band</span> <span class="occ">569 entries</span></li>
+    <li><span class="book-name">Genuine Book</span> <span class="occ">232 entries</span></li>
+    <li><span class="book-name">Great Gig Book</span> <span class="occ">760 entries</span></li>
+    <li><span class="book-name">Jazz LTD</span> <span class="occ">532 entries</span></li>
+    <li><span class="book-name">Jazz Odds &amp; Ends</span> <span class="occ">51 entries</span></li>
+    <li><span class="book-name">JazzFake</span> <span class="occ">615 entries</span></li>
+    <li><span class="book-name">Library of Musicians Jazz</span> <span class="occ">321 entries</span></li>
+    <li><span class="book-name">Monster One</span> <span class="occ">436 entries</span></li>
+    <li><span class="book-name">Pocket Changes Vol 1</span> <span class="occ">417 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 (old)</span> <span class="occ">508 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 Bass (old)</span> <span class="occ">505 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 Bb (old)</span> <span class="occ">503 entries</span></li>
+    <li><span class="book-name">Real Book Vol 1 Eb (old)</span> <span class="occ">430 entries</span></li>
+    <li><span class="book-name">Real Book Vol 2 (old)</span> <span class="occ">453 entries</span></li>
+    <li><span class="book-name">Real Book Vol 2 Bass (old)</span> <span class="occ">427 entries</span></li>
+    <li><span class="book-name">Real Book Vol 2 Bb (old)</span> <span class="occ">425 entries</span></li>
+    <li><span class="book-name">Real Book Vol 2 Eb (old)</span> <span class="occ">454 entries</span></li>
+    <li><span class="book-name">Real Book Vol 3 (old)</span> <span class="occ">360 entries</span></li>
+    <li><span class="book-name">Real Vocal Book Vol 1 (old)</span> <span class="occ">461 entries</span></li>
+    <li><span class="book-name">Spaces 1</span> <span class="occ">262 entries</span></li>
+    <li><span class="book-name">Spaces 2</span> <span class="occ">198 entries</span></li>
+    <li><span class="book-name">Spaces 3</span> <span class="occ">362 entries</span></li>
+    <li><span class="book-name">Spaces 4</span> <span class="occ">288 entries</span></li>
+    <li><span class="book-name">The Book</span> <span class="occ">458 entries</span></li>
+    <li><span class="book-name">Thelonious Monk (ms)</span> <span class="occ">56 entries</span></li>
+    <li><span class="book-name">Think Of One</span> <span class="occ">670 entries</span></li>
+    <li><span class="book-name">Vocal Real Book</span> <span class="occ">220 entries</span></li>
+    <li><span class="book-name">Will&#39;s Book</span> <span class="occ">166 entries</span></li>
+  </ul>
+</section>
+
+<section class="publisher play-alongs">
+  <h2>Play-Along Series <span class="count">— 310 volumes indexed</span></h2>
+  <p class="section-intro">Play-along volumes are indexed track by track, so a single search points you to every volume that contains a tune — with key, tempo and style.</p>
+  <details class="vol-group" open>
+    <summary><strong>Jamey Aebersold Play-A-Long Series</strong> <span class="vol-meta">133 volumes · 1,526 tracks indexed</span></summary>
+<ul class="volume-list">
+  <li><span class="vol-num">Vol. 1</span> <span class="vol-title">How To Play Jazz &amp; Improvise</span> <span class="occ">3 entries</span></li>
+  <li><span class="vol-num">Vol. 2</span> <span class="vol-title">Nothin But Blues</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 3</span> <span class="vol-title">II/V7/I Progression</span> <span class="occ">3 entries</span></li>
+  <li><span class="vol-num">Vol. 4</span> <span class="vol-title">Movin On</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 5</span> <span class="vol-title">Time To Play Music</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 6</span> <span class="vol-title">Charlie Parker - All Bird</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 7</span> <span class="vol-title">Miles Davis</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 8</span> <span class="vol-title">Sonny Rollins</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 9</span> <span class="vol-title">Woody Shaw</span> <span class="occ">7 entries</span></li>
+  <li><span class="vol-num">Vol. 10</span> <span class="vol-title">David Baker</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 11</span> <span class="vol-title">Herbie Hancock</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 12</span> <span class="vol-title">Duke Ellington</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 13</span> <span class="vol-title">Cannonball Adderley</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 14</span> <span class="vol-title">Benny Golson</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 15</span> <span class="vol-title">Payin Dues</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 16</span> <span class="vol-title">Turnarounds Cycles &amp; II/V7s</span> <span class="occ">5 entries</span></li>
+  <li><span class="vol-num">Vol. 17</span> <span class="vol-title">Horace Silver Vol.1</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 18</span> <span class="vol-title">Horace Silver Vol.2</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 19</span> <span class="vol-title">David Liebman</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 20</span> <span class="vol-title">Jimmy Raney</span> <span class="occ">17 entries</span></li>
+  <li><span class="vol-num">Vol. 21</span> <span class="vol-title">Getting It Together</span> <span class="occ">2 entries</span></li>
+  <li><span class="vol-num">Vol. 22</span> <span class="vol-title">Favorite Standards</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 23</span> <span class="vol-title">One Dozen Standards</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 24</span> <span class="vol-title">Major &amp; Minor</span> <span class="occ">0 entries</span></li>
+  <li><span class="vol-num">Vol. 25</span> <span class="vol-title">All Time Standards</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 26</span> <span class="vol-title">Scale Syllabus</span> <span class="occ">0 entries</span></li>
+  <li><span class="vol-num">Vol. 27</span> <span class="vol-title">John Coltrane</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 28</span> <span class="vol-title">John Coltrane Vol.2</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 29</span> <span class="vol-title">Play Duets With Jimmy Raney</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 30</span> <span class="vol-title">Rhythm Section Workout</span> <span class="occ">0 entries</span></li>
+  <li><span class="vol-num">Vol. 31</span> <span class="vol-title">Bossa Novas</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 32</span> <span class="vol-title">Ballads</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 33</span> <span class="vol-title">Wayne Shorter</span> <span class="occ">18 entries</span></li>
+  <li><span class="vol-num">Vol. 34</span> <span class="vol-title">Jam Session</span> <span class="occ">18 entries</span></li>
+  <li><span class="vol-num">Vol. 35</span> <span class="vol-title">Cedar Walton</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 36</span> <span class="vol-title">Bebop &amp; Beyond</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 37</span> <span class="vol-title">Sammy Nestico</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 38</span> <span class="vol-title">Blue Note</span> <span class="occ">17 entries</span></li>
+  <li><span class="vol-num">Vol. 39</span> <span class="vol-title">Swing, Swing, Swing</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 40</span> <span class="vol-title">&#39;Round Midnight</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 41</span> <span class="vol-title">Body And Soul</span> <span class="occ">17 entries</span></li>
+  <li><span class="vol-num">Vol. 42</span> <span class="vol-title">Blues In All Keys</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 43</span> <span class="vol-title">Groovin&#39; High</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 44</span> <span class="vol-title">Autumn Leaves</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 45</span> <span class="vol-title">Bill Evans</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 46</span> <span class="vol-title">Out Of This World</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 47</span> <span class="vol-title">I Got Rhythm (all keys)</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 48</span> <span class="vol-title">In A Mellow Tone</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 49</span> <span class="vol-title">Sugar</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 50</span> <span class="vol-title">The Magic Of Miles</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 51</span> <span class="vol-title">Night &amp; Day</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 52</span> <span class="vol-title">Collector&#39;s Items</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 53</span> <span class="vol-title">Clifford Brown</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 54</span> <span class="vol-title">Maiden Voyage</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 55</span> <span class="vol-title">Jerome Kern</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 56</span> <span class="vol-title">Thelonious Monk</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 57</span> <span class="vol-title">Minor Blues In All Keys</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 58</span> <span class="vol-title">Unforgettable Standards</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 59</span> <span class="vol-title">Invitation</span> <span class="occ">18 entries</span></li>
+  <li><span class="vol-num">Vol. 60</span> <span class="vol-title">Freddie Hubbard</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 61</span> <span class="vol-title">Burnin&#39;(Up Tempo Jazz)</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 62</span> <span class="vol-title">Wes Montgomery</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 63</span> <span class="vol-title">Tom Harrell</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 64</span> <span class="vol-title">Salsa Latin Jazz</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 65</span> <span class="vol-title">Four &amp; More</span> <span class="occ">23 entries</span></li>
+  <li><span class="vol-num">Vol. 66</span> <span class="vol-title">Billy Strayhorn</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 67</span> <span class="vol-title">Tune Up</span> <span class="occ">7 entries</span></li>
+  <li><span class="vol-num">Vol. 68</span> <span class="vol-title">Giant Steps</span> <span class="occ">6 entries</span></li>
+  <li><span class="vol-num">Vol. 69</span> <span class="vol-title">Bird Goes Latin</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 70</span> <span class="vol-title">Killer Joe</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 71</span> <span class="vol-title">East Of The Sun</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 72</span> <span class="vol-title">Street Of Dreams</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 73</span> <span class="vol-title">Oliver Nelson (Stolen Moments)</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 74</span> <span class="vol-title">Latin Jazz</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 75</span> <span class="vol-title">Countdown To Giant Steps</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 76</span> <span class="vol-title">How To Learn Tunes</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 77</span> <span class="vol-title">Paquito D&#39;Rivera</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 78</span> <span class="vol-title">Jazz Holiday Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 79</span> <span class="vol-title">Avalon</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 80</span> <span class="vol-title">Indiana</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 81</span> <span class="vol-title">Contemporary Standards And Originals</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 82</span> <span class="vol-title">Dexter Gordon</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 83</span> <span class="vol-title">The Brecker Brothers</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 84</span> <span class="vol-title">Dominant 7th Workout</span> <span class="occ">3 entries</span></li>
+  <li><span class="vol-num">Vol. 85</span> <span class="vol-title">Tunes You Thought You Knew</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 86</span> <span class="vol-title">Shoutin&#39; Out (Horace Silver)</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 87</span> <span class="vol-title">When Lights Are Low (Benny Carter)</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 88</span> <span class="vol-title">Millennium Blues</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 89</span> <span class="vol-title">Darn That Dream</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 90</span> <span class="vol-title">Odd Times</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 91</span> <span class="vol-title">Players&#39; Choice</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 92</span> <span class="vol-title">Lennie Niehaus</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 93</span> <span class="vol-title">What&#39;s New</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 94</span> <span class="vol-title">Hot House</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 95</span> <span class="vol-title">500 Miles High</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 96</span> <span class="vol-title">Latin Quarter</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 97</span> <span class="vol-title">Standards With Strings</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 98</span> <span class="vol-title">Antonio Carlos Jobim - Bossa Nova</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 99</span> <span class="vol-title">Tadd Dameron</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 100</span> <span class="vol-title">St. Louis Blues</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 101</span> <span class="vol-title">Andy LaVerne - Secret Of The Andes</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 102</span> <span class="vol-title">Jerry Bergonzi</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 103</span> <span class="vol-title">David Sanborn</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 104</span> <span class="vol-title">Free Play</span> <span class="occ">0 entries</span></li>
+  <li><span class="vol-num">Vol. 105</span> <span class="vol-title">Dave Brubeck</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 106</span> <span class="vol-title">Lee Morgan</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 107</span> <span class="vol-title">It Had To Be You (Singers)</span> <span class="occ">24 entries</span></li>
+  <li><span class="vol-num">Vol. 108</span> <span class="vol-title">Joe Henderson</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 109</span> <span class="vol-title">Fusion</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 110</span> <span class="vol-title">When I Fall In Love</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 111</span> <span class="vol-title">JJ Johnson</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 112</span> <span class="vol-title">Cole Porter</span> <span class="occ">21 entries</span></li>
+  <li><span class="vol-num">Vol. 113</span> <span class="vol-title">Embraceable You (Singers)</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 114</span> <span class="vol-title">Good Time</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 115</span> <span class="vol-title">Ron Carter</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 116</span> <span class="vol-title">Miles Of Modes</span> <span class="occ">0 entries</span></li>
+  <li><span class="vol-num">Vol. 117</span> <span class="vol-title">Cole Porter For Singers</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 118</span> <span class="vol-title">Groovin&#39; Jazz</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 119</span> <span class="vol-title">Bobby Watson</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 120</span> <span class="vol-title">Feelin&#39; Good</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 121</span> <span class="vol-title">Phil Woods</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 122</span> <span class="vol-title">Jimmy Heath</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 123</span> <span class="vol-title">Now&#39;s The Time (Joey DeFrancesco)</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 124</span> <span class="vol-title">Brazilian Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 125</span> <span class="vol-title">Christmas Carol Classics</span> <span class="occ">17 entries</span></li>
+  <li><span class="vol-num">Vol. 126</span> <span class="vol-title">Randy Brecker</span> <span class="occ">13 entries</span></li>
+  <li><span class="vol-num">Vol. 127</span> <span class="vol-title">Eddie Harris - Listen Here</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 128</span> <span class="vol-title">Django Reinhardt - Gypsy Jazz</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 129</span> <span class="vol-title">A Jazzy Christmas</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 130</span> <span class="vol-title">Pennies From Heaven</span> <span class="occ">20 entries</span></li>
+  <li><span class="vol-num">Vol. 131</span> <span class="vol-title">Cry Me A River</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 132</span> <span class="vol-title">On The Street Where You Live</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 133</span> <span class="vol-title">Down By The Riverside</span> <span class="occ">15 entries</span></li>
+</ul>
+  </details>
+  <details class="vol-group">
+    <summary><strong>Hal Leonard Jazz Play-Along Series</strong> <span class="vol-meta">177 volumes · 1,804 tracks indexed</span></summary>
+<ul class="volume-list">
+  <li><span class="vol-num">Vol. 1</span> <span class="vol-title">Duke Ellington</span> <span class="occ">24 entries</span></li>
+  <li><span class="vol-num">Vol. 2</span> <span class="vol-title">Miles Davis</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 3</span> <span class="vol-title">The Blues</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 4</span> <span class="vol-title">Jazz Ballads</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 5</span> <span class="vol-title">Bebop Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 6</span> <span class="vol-title">Jazz Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 7</span> <span class="vol-title">Essential Jazz Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 8</span> <span class="vol-title">Antonio Carlos Jobim</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 9</span> <span class="vol-title">Dizzy Gillespie</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 10</span> <span class="vol-title">Disney</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 11</span> <span class="vol-title">Rodgers &amp; Hart Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 12</span> <span class="vol-title">Essential Jazz Classics</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 13</span> <span class="vol-title">John Coltrane</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 14</span> <span class="vol-title">Irving Berlin</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 14B</span> <span class="vol-title">Herbie Hancock</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 15</span> <span class="vol-title">Rodgers &amp; Hammerstein</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 16</span> <span class="vol-title">Cole Porter</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 17</span> <span class="vol-title">Count Basie</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 18</span> <span class="vol-title">Harold Arlen</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 19</span> <span class="vol-title">Cool Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 20</span> <span class="vol-title">Christmas Carols</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 21</span> <span class="vol-title">Rodgers &amp; Hart</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 22</span> <span class="vol-title">Wayne Shorter</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 23</span> <span class="vol-title">Latin Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 24</span> <span class="vol-title">Early Jazz Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 25</span> <span class="vol-title">Christmas Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 26</span> <span class="vol-title">Charlie Parker</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 27</span> <span class="vol-title">Great Jazz Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 28</span> <span class="vol-title">Big Band Era</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 29</span> <span class="vol-title">Lennon &amp; McCartney</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 30</span> <span class="vol-title">Blues Best</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 31</span> <span class="vol-title">Jazz in Three</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 32</span> <span class="vol-title">Best of Swing</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 32B</span> <span class="vol-title">Best of Swing</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 33</span> <span class="vol-title">Sonny Rollins</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 34</span> <span class="vol-title">All-Time Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 35</span> <span class="vol-title">Bluesy Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 36</span> <span class="vol-title">Horace Silver</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 37</span> <span class="vol-title">Bill Evans</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 38</span> <span class="vol-title">Christmas Songs</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 39</span> <span class="vol-title">Jerome Kern</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 40</span> <span class="vol-title">Bossa Nova</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 41</span> <span class="vol-title">Duke Ellington Classics Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 42</span> <span class="vol-title">Gerry Mulligan Favorites</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 43</span> <span class="vol-title">Gerry Mulligan Classics</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 44</span> <span class="vol-title">Oliver Nelson</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 45</span> <span class="vol-title">George Gershwin</span> <span class="occ">20 entries</span></li>
+  <li><span class="vol-num">Vol. 45B</span> <span class="vol-title">Jazz at the Movies</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 46</span> <span class="vol-title">Broadway Jazz Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 47</span> <span class="vol-title">Classic Jazz Ballads</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 48</span> <span class="vol-title">Bebop Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 49</span> <span class="vol-title">Miles Davis Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 50</span> <span class="vol-title">Great Jazz Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 51</span> <span class="vol-title">Up-Tempo Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 52</span> <span class="vol-title">Stevie Wonder</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 53</span> <span class="vol-title">Rhythm Changes</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 54</span> <span class="vol-title">Moonlight in Vermont</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 55</span> <span class="vol-title">Benny Golson</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 56</span> <span class="vol-title">Georgia On My Mind &amp; Other Hits</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 57</span> <span class="vol-title">Vince Guaraldi</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 58</span> <span class="vol-title">More Beatles</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 59</span> <span class="vol-title">Soul Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 60</span> <span class="vol-title">Dexter Gordon</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 61</span> <span class="vol-title">Mongo Santamaria</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 62</span> <span class="vol-title">Jazz-Rock Fusion</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 63</span> <span class="vol-title">Classical Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 64</span> <span class="vol-title">TV Tunes</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 65</span> <span class="vol-title">Smooth Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 66</span> <span class="vol-title">A Charlie Brown Christmas</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 67</span> <span class="vol-title">Chick Corea</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 68</span> <span class="vol-title">Charles Mingus</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 69</span> <span class="vol-title">Classic Jazz Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 70</span> <span class="vol-title">The Doors</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 71</span> <span class="vol-title">Cole Porter Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 72</span> <span class="vol-title">Classic Jazz Ballads</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 73</span> <span class="vol-title">Jazz Blues</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 74</span> <span class="vol-title">Best Jazz Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 75</span> <span class="vol-title">Paul Desmond</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 76</span> <span class="vol-title">Broadway Jazz Ballads</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 77</span> <span class="vol-title">On Broadway</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 78</span> <span class="vol-title">Steely Dan</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 79</span> <span class="vol-title">Miles Davis Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 80</span> <span class="vol-title">Jimi Hendrix</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 81</span> <span class="vol-title">Frank Sinatra - Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 82</span> <span class="vol-title">Frank Sinatra - Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 83</span> <span class="vol-title">Andrew Lloyd Webber</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 84</span> <span class="vol-title">Bossa Nova Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 85</span> <span class="vol-title">Motown Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 86</span> <span class="vol-title">Benny Goodman</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 87</span> <span class="vol-title">Dixieland</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 88</span> <span class="vol-title">Duke Ellington Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 89</span> <span class="vol-title">Irving Berlin Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 90</span> <span class="vol-title">Thelonious Monk Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 91</span> <span class="vol-title">Thelonious Monk Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 92</span> <span class="vol-title">Leonard Bernstein</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 93</span> <span class="vol-title">Disney Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 94</span> <span class="vol-title">Ray Charles</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 95</span> <span class="vol-title">Smooth Jazz Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 96</span> <span class="vol-title">Latin Jazz Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 97</span> <span class="vol-title">Maybe I&#39;m Amazed</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 98</span> <span class="vol-title">Dave Frishberg</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 99</span> <span class="vol-title">Swinging Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 100</span> <span class="vol-title">Louis Armstrong</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 101</span> <span class="vol-title">Bud Powell</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 102</span> <span class="vol-title">Jazz Pop</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 103</span> <span class="vol-title">On Broadway Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 104</span> <span class="vol-title">Elton John</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 105</span> <span class="vol-title">Soulful Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 106</span> <span class="vol-title">Sentimental Journey</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 107</span> <span class="vol-title">Motown Classics Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 108</span> <span class="vol-title">Jazz Waltz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 109</span> <span class="vol-title">Oscar Peterson</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 110</span> <span class="vol-title">Jazz Ballads Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 111</span> <span class="vol-title">Cool Christmas</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 112</span> <span class="vol-title">Paquito D&#39;Rivera - Latin Jazz</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 113</span> <span class="vol-title">Paquito D&#39;Rivera - Brazilian Jazz</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 114</span> <span class="vol-title">Jazz Classics Vol.2</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 115</span> <span class="vol-title">The Sound of Music</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 116</span> <span class="vol-title">Jaco Pastorius Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 117</span> <span class="vol-title">Antonio Carlos Jobim - More Hits</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 118</span> <span class="vol-title">Jazz Classics with Easy Changes Vol.2</span> <span class="occ">20 entries</span></li>
+  <li><span class="vol-num">Vol. 119</span> <span class="vol-title">Jelly Roll Morton</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 120</span> <span class="vol-title">J.S. Bach</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 121</span> <span class="vol-title">Django Reinhardt</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 122</span> <span class="vol-title">Paul Simon</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 123</span> <span class="vol-title">Bacharach &amp; David</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 124</span> <span class="vol-title">Jazz-Rock Horn Hits</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 125</span> <span class="vol-title">Sammy Nestico</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 126</span> <span class="vol-title">Count Basie Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 127</span> <span class="vol-title">Chuck Mangione</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 128</span> <span class="vol-title">Easy Jazz Classics</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 129</span> <span class="vol-title">Vocal Standards - High Voice</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 130</span> <span class="vol-title">Vocal Jazz - Low Voice</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 131</span> <span class="vol-title">Vocal Jazz - High Voice</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 132</span> <span class="vol-title">Stan Getz Essentials</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 133</span> <span class="vol-title">Stan Getz Favorites</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 134</span> <span class="vol-title">Kids Songs</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 135</span> <span class="vol-title">Jeff Beck</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 136</span> <span class="vol-title">Jazz Gems Vol.3</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 137</span> <span class="vol-title">Wes Montgomery</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 138</span> <span class="vol-title">Freddie Hubbard</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 139</span> <span class="vol-title">Cannonball Adderley</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 140</span> <span class="vol-title">Joe Zawinul</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 141</span> <span class="vol-title">Jazz Ballads Vol.3</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 142</span> <span class="vol-title">Charlie Parker Gems</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 143</span> <span class="vol-title">Big Band Classics</span> <span class="occ">12 entries</span></li>
+  <li><span class="vol-num">Vol. 144</span> <span class="vol-title">Woody Shaw</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 145</span> <span class="vol-title">Country Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 146</span> <span class="vol-title">Ramsey Lewis</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 147</span> <span class="vol-title">Samba</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 148</span> <span class="vol-title">John Coltrane Favorites</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 149</span> <span class="vol-title">John Coltrane – Giant Steps</span> <span class="occ">7 entries</span></li>
+  <li><span class="vol-num">Vol. 151</span> <span class="vol-title">Modern Jazz Quartet</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 152</span> <span class="vol-title">J.J. Johnson</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 153</span> <span class="vol-title">Kenny Garrett</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 154</span> <span class="vol-title">Henry Mancini</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 155</span> <span class="vol-title">Smooth Jazz Classics</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 156</span> <span class="vol-title">Thelonious Monk - Early Gems</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 157</span> <span class="vol-title">Hymns</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 158</span> <span class="vol-title">Jazz Covers Rock</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 159</span> <span class="vol-title">Mozart</span> <span class="occ">9 entries</span></li>
+  <li><span class="vol-num">Vol. 160</span> <span class="vol-title">Miles Davis Fusion</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 161</span> <span class="vol-title">Thank You</span> <span class="occ">2 entries</span></li>
+  <li><span class="vol-num">Vol. 162</span> <span class="vol-title">Christmas Favorites</span> <span class="occ">16 entries</span></li>
+  <li><span class="vol-num">Vol. 163</span> <span class="vol-title">John Coltrane Standards</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 164</span> <span class="vol-title">Herb Alpert</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 165</span> <span class="vol-title">George Benson</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 166</span> <span class="vol-title">Ornette Coleman</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 167</span> <span class="vol-title">Johnny Mandel</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 168</span> <span class="vol-title">Tadd Dameron</span> <span class="occ">11 entries</span></li>
+  <li><span class="vol-num">Vol. 169</span> <span class="vol-title">Alone Together</span> <span class="occ">14 entries</span></li>
+  <li><span class="vol-num">Vol. 170</span> <span class="vol-title">Ultimate Jazz Standards</span> <span class="occ">15 entries</span></li>
+  <li><span class="vol-num">Vol. 171</span> <span class="vol-title">Radiohead</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 172</span> <span class="vol-title">Pop Standards</span> <span class="occ">8 entries</span></li>
+  <li><span class="vol-num">Vol. 174</span> <span class="vol-title">Tin Pan Alley</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 175</span> <span class="vol-title">Tango</span> <span class="occ">10 entries</span></li>
+  <li><span class="vol-num">Vol. 176</span> <span class="vol-title">Ultimate Jazz Standards</span> <span class="occ">3 entries</span></li>
+</ul>
+  </details>
+</section>
+
+<footer>
+  <p>Database version <strong>2026.04.2</strong> · last updated 2026-05-03</p>
+  <p style="margin-top:8px"><a href="./">Home</a> · <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">Google Play</a></p>
+</footer>
+
+</div>
+</body>
+</html>
