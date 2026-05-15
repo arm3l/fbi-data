@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="KvB2c0IpnpnyVDnNSXZPFjqSdcfuV3HIdr_pXTnZwx8">
 <title>Fake Book Index — Search 10,000+ Jazz Standards Across All Major Fake Books</title>
-<meta name="description" content="Android app for jazz musicians: search 10,000+ standards across Real Books, Hal Leonard, Sher Music and Aebersold play-alongs. Filter by the books you own. One-time purchase, no subscription, no ads.">
-<meta name="keywords" content="fake book index, jazz standards, real book app, fake book app, jazz musician tool, hal leonard fake book, sher music, aebersold play-along, jazz play-along, jazz reference, jazz android app, find jazz standard, real book search, my library filter">
+<meta name="description" content="App for jazz musicians on iPhone, iPad, Mac and Android: search 10,000+ standards across Real Books, Hal Leonard, Sher Music and Aebersold play-alongs. Filter by the books you own. One-time purchase, no subscription, no ads.">
+<meta name="keywords" content="fake book index, jazz standards, real book app, fake book app, jazz musician tool, hal leonard fake book, sher music, aebersold play-along, jazz play-along, jazz reference, jazz ios app, jazz android app, iphone app, ipad app, mac app, find jazz standard, real book search, my library filter">
 <meta name="author" content="arm3l">
 <link rel="canonical" href="https://arm3l.github.io/fbi-data/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Fake Book Index — Find Any Jazz Standard in Any Fake Book">
-<meta property="og:description" content="Android app indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. Filter by your library. One-time purchase, no subscription, no ads.">
+<meta property="og:description" content="Available on iPhone, iPad, Mac and Android. Indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. Filter by your library. One-time purchase, no subscription, no ads.">
 <meta property="og:url" content="https://arm3l.github.io/fbi-data/">
 <meta property="og:site_name" content="Fake Book Index">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fake Book Index — Find Any Jazz Standard in Any Fake Book">
-<meta name="twitter:description" content="Android app indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. No subscription, no ads.">
+<meta name="twitter:description" content="Available on iPhone, iPad, Mac and Android. Indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. No subscription, no ads.">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -30,12 +30,15 @@
   "@context": "https://schema.org",
   "@type": "MobileApplication",
   "name": "Fake Book Index",
-  "operatingSystem": "Android",
+  "operatingSystem": "iOS, iPadOS, macOS, Android",
   "applicationCategory": "MusicApplication",
-  "description": "Searchable index of jazz standards across major fake books and play-along series. Android app for working jazz musicians. One-time purchase, no subscription.",
+  "description": "Searchable index of jazz standards across major fake books and play-along series. App for working jazz musicians on iPhone, iPad, Mac and Android. One-time purchase, no subscription.",
   "url": "https://arm3l.github.io/fbi-data/",
-  "downloadUrl": "https://play.google.com/store/apps/details?id=com.fakebookindex",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.fakebookindex",
+  "downloadUrl": [
+    "https://apps.apple.com/app/fake-book-index/id6769004225",
+    "https://play.google.com/store/apps/details?id=com.fakebookindex"
+  ],
+  "installUrl": "https://apps.apple.com/app/fake-book-index/id6769004225",
   "author": { "@type": "Person", "name": "arm3l" },
   "offers": {
     "@type": "Offer",
@@ -112,7 +115,20 @@ body {
 }
 
 /* CTA */
-.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+.cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 24px; }
+.cta-store {
+  display: inline-block;
+  height: 52px;
+  line-height: 0;
+  transition: opacity 0.15s;
+}
+.cta-store img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+.cta-store:hover { opacity: 0.75; }
+.cta-secondary-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
 .cta {
   display: inline-block;
   text-decoration: none;
@@ -222,6 +238,7 @@ footer a:hover { text-decoration: underline; }
   .stats { gap: 16px; padding: 16px 18px; }
   .stat .num { font-size: 22px; }
   .cta { padding: 12px 18px; font-size: 12px; }
+  .cta-store { height: 44px; }
 }
 </style>
 </head>
@@ -235,11 +252,19 @@ footer a:hover { text-decoration: underline; }
 
 <div class="hero">
   <h1>Find any jazz standard in <em>any fake book</em>, instantly.</h1>
-  <p class="lede">An Android app for jazz musicians. Search 10,000+ standards across 90+ fake books and play-along volumes. Know which book to open before the next chorus.</p>
+  <p class="lede">An app for jazz musicians on iPhone, iPad, Mac and Android. Search 10,000+ standards across 90+ fake books and play-along volumes. Know which book to open before the next chorus.</p>
 </div>
 
 <div class="cta-row">
-  <a class="cta cta-primary" href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">▼ Get it on Google Play</a>
+  <a class="cta-store" href="https://apps.apple.com/app/fake-book-index/id6769004225" rel="noopener" aria-label="Download on the App Store">
+    <img src="./app-store.svg" alt="Download on the App Store" width="180" height="52">
+  </a>
+  <a class="cta-store" href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener" aria-label="Get it on Google Play">
+    <img src="./google-play.svg" alt="Get it on Google Play" width="180" height="52">
+  </a>
+</div>
+
+<div class="cta-secondary-row">
   <a class="cta cta-secondary" href="./books-list.html">📋 See indexed books</a>
 </div>
 
@@ -293,7 +318,7 @@ footer a:hover { text-decoration: underline; }
 
 <footer>
   <p>Fake Book Index — built by <a href="https://github.com/arm3l" rel="noopener">arm3l</a></p>
-  <p style="margin-top:8px"><a href="./books-list.html">All indexed books</a> · <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">Google Play</a></p>
+  <p style="margin-top:8px"><a href="./books-list.html">All indexed books</a> · <a href="https://apps.apple.com/app/fake-book-index/id6769004225" rel="noopener">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">Google Play</a></p>
 </footer>
 
 </div>
