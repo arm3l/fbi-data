@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Indexed Fake Books — Fake Book Index</title>
-<meta name="description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<meta name="description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. App for iPhone, iPad, Mac and Android, one-time purchase, no subscription.">
 <meta name="keywords" content="fake book index, jazz standards, real book, hal leonard fake book, sher music, aebersold play-along, jazz play-along, jazz reference, jazz musician app">
 <meta name="author" content="arm3l">
 <link rel="canonical" href="https://arm3l.github.io/fbi-data/books-list.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Indexed Fake Books — Fake Book Index">
-<meta property="og:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<meta property="og:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. App for iPhone, iPad, Mac and Android, one-time purchase, no subscription.">
 <meta property="og:url" content="https://arm3l.github.io/fbi-data/books-list.html">
 <meta property="og:site_name" content="Fake Book Index">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Indexed Fake Books — Fake Book Index">
-<meta name="twitter:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. Android app, one-time purchase, no subscription.">
+<meta name="twitter:description" content="Searchable index of 10,470 jazz standards across 92 fake books and 310 play-along volumes — including Bill Evans Fake Book, Bud Powell Real Book, Charles Mingus Fake Book, All Jazz Real Book, Aebersold and Hal Leonard play-alongs. App for iPhone, iPad, Mac and Android, one-time purchase, no subscription.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Fake Book Index","operatingSystem":"Android","applicationCategory":"MusicApplication","description":"Searchable index of jazz standards across major fake books and play-along series. Android app for working jazz musicians. One-time purchase, no subscription.","url":"https://arm3l.github.io/fbi-data/","downloadUrl":"https://play.google.com/store/apps/details?id=com.fakebookindex","installUrl":"https://play.google.com/store/apps/details?id=com.fakebookindex","author":{"@type":"Person","name":"arm3l"},"offers":{"@type":"Offer","category":"https://schema.org/paid","availability":"https://schema.org/InStock"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Fake Book Index","operatingSystem":"iOS, iPadOS, macOS, Android","applicationCategory":"MusicApplication","description":"Searchable index of jazz standards across major fake books and play-along series. App for working jazz musicians on iPhone, iPad, Mac and Android. One-time purchase, no subscription.","url":"https://arm3l.github.io/fbi-data/","downloadUrl":["https://apps.apple.com/app/fake-book-index/id6769004225","https://play.google.com/store/apps/details?id=com.fakebookindex"],"installUrl":"https://apps.apple.com/app/fake-book-index/id6769004225","author":{"@type":"Person","name":"arm3l"},"offers":{"@type":"Offer","category":"https://schema.org/paid","availability":"https://schema.org/InStock"}}</script>
 <style>
 :root{--ink:#1a1208;--paper:#f5f0e8;--cream:#ede8da;--gold:#c8922a;--gold2:#e8b84b;--staff:#c4bba8;--staffd:#a09880}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -29,9 +29,10 @@ h1{font-family:"Playfair Display",Georgia,serif;font-size:36px;font-weight:700;m
 .tagline{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--staffd);text-transform:uppercase;letter-spacing:1.5px}
 .intro{background:var(--cream);padding:20px 24px;border-left:3px solid var(--gold);margin:24px 0;font-size:15px}
 .intro strong{font-weight:600}
-.cta{margin:24px 0 12px}
-.cta a{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:12px 22px;font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:1px;text-transform:uppercase;border:2px solid var(--gold);transition:all .15s}
-.cta a:hover{background:var(--gold);color:var(--ink)}
+.cta{margin:24px 0 12px;display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.cta a{display:inline-block;height:52px;line-height:0;transition:opacity .15s}
+.cta a img{height:100%;width:auto;display:block}
+.cta a:hover{opacity:.75}
 .stats{display:flex;flex-wrap:wrap;gap:24px;margin:24px 0;padding:18px 0;border-top:1px solid var(--staff);border-bottom:1px solid var(--staff)}
 .stat{font-family:"IBM Plex Mono",monospace}
 .stat .num{font-size:24px;font-weight:500;color:var(--gold);display:block}
@@ -61,7 +62,7 @@ h2 .vol-count{font-family:"IBM Plex Sans",sans-serif;font-size:13px;color:var(--
 footer{margin-top:48px;padding-top:20px;border-top:2px solid var(--gold);font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--staffd);text-align:center}
 footer a{color:var(--gold);text-decoration:none}
 footer a:hover{text-decoration:underline}
-@media(max-width:600px){body{padding:20px 14px}h1{font-size:28px}.stats{gap:14px}.stat .num{font-size:20px}}
+@media(max-width:600px){body{padding:20px 14px}h1{font-size:28px}.stats{gap:14px}.stat .num{font-size:20px}.cta a{height:44px}}
 </style>
 </head>
 <body>
@@ -74,11 +75,12 @@ footer a:hover{text-decoration:underline}
 </header>
 
 <div class="intro">
-  <p><strong>Fake Book Index</strong> is an Android app that lets jazz musicians instantly find which fake book contains the standard they need to play. Whether you're looking up a tune for a gig, a session, or practice, FBI tells you exactly which book and page to open.</p>
+  <p><strong>Fake Book Index</strong> is an app for iPhone, iPad, Mac and Android that lets jazz musicians instantly find which fake book contains the standard they need to play. Whether you're looking up a tune for a gig, a session, or practice, FBI tells you exactly which book and page to open.</p>
 </div>
 
 <div class="cta">
-  <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">▼ Get it on Google Play</a>
+  <a href="https://apps.apple.com/app/fake-book-index/id6769004225" rel="noopener" aria-label="Download on the App Store"><img src="./app-store.svg" alt="Download on the App Store" width="180" height="52"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener" aria-label="Get it on Google Play"><img src="./google-play.svg" alt="Get it on Google Play" width="180" height="52"></a>
 </div>
 
 <div class="stats">
@@ -531,7 +533,7 @@ footer a:hover{text-decoration:underline}
 
 <footer>
   <p>Database version <strong>2026.04.2</strong> · last updated 2026-05-03</p>
-  <p style="margin-top:8px"><a href="./">Home</a> · <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">Google Play</a></p>
+  <p style="margin-top:8px"><a href="./">Home</a> · <a href="https://apps.apple.com/app/fake-book-index/id6769004225" rel="noopener">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.fakebookindex" rel="noopener">Google Play</a></p>
 </footer>
 
 </div>
