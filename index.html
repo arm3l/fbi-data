@@ -4,23 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="KvB2c0IpnpnyVDnNSXZPFjqSdcfuV3HIdr_pXTnZwx8">
-<title>Fake Book Index — Search 10,000+ Jazz Standards Across All Major Fake Books</title>
-<meta name="description" content="App for jazz musicians on iPhone, iPad, Mac and Android: search 10,000+ standards across Real Books, Hal Leonard, Sher Music and Aebersold play-alongs. Filter by the books you own. One-time purchase, no subscription, no ads.">
-<meta name="keywords" content="fake book index, jazz standards, real book app, fake book app, jazz musician tool, hal leonard fake book, sher music, aebersold play-along, jazz play-along, jazz reference, jazz ios app, jazz android app, iphone app, ipad app, mac app, find jazz standard, real book search, my library filter">
+<title>Fake Book Index — Search 10,000+ Jazz Standards in The Real Book, Fake Books & Play-Alongs</title>
+<meta name="description" content="Real book and fake book search app for jazz musicians on iPhone, iPad, Mac and Android. Find any jazz standard across The Real Book, New Real Book, Sher Music, Hal Leonard fake books and Aebersold play-alongs. Filter by the books you own. One-time purchase, no subscription, no ads.">
+<meta name="keywords" content="real book app, fake book index, real book search, jazz standards app, the real book, new real book, lead sheet finder, fake book app, jazz musician tool, hal leonard fake book, sher music real book, aebersold play-along, jazz play-along, grilles de jazz, standards de jazz, jazz ios app, jazz android app, iphone app, ipad app, mac app, find jazz standard, my library filter">
 <meta name="author" content="arm3l">
 <link rel="canonical" href="https://arm3l.github.io/fbi-data/">
 
+<!-- Favicon (onglet navigateur, 16-48 px) -->
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
+<link rel="shortcut icon" href="./favicon.ico">
+
+<!-- Apple touch icon (écran d'accueil iOS, 180 px) -->
+<link rel="apple-touch-icon" sizes="180x180" href="./app-icon-180.png">
+
+<!-- Android / PWA manifest -->
+<link rel="manifest" href="./site.webmanifest">
+<meta name="theme-color" content="#c8922a">
+
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Fake Book Index — Find Any Jazz Standard in Any Fake Book">
-<meta property="og:description" content="Available on iPhone, iPad, Mac and Android. Indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. Filter by your library. One-time purchase, no subscription, no ads.">
+<meta property="og:title" content="Fake Book Index — Real Book & Fake Book Search for Jazz Musicians">
+<meta property="og:description" content="Available on iPhone, iPad, Mac and Android. 10,000+ jazz standards indexed across The Real Book, New Real Book, Hal Leonard, Sher Music, Aebersold and more. Filter by your library. One-time purchase, no subscription.">
 <meta property="og:url" content="https://arm3l.github.io/fbi-data/">
 <meta property="og:site_name" content="Fake Book Index">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fake Book Index — Find Any Jazz Standard in Any Fake Book">
-<meta name="twitter:description" content="Available on iPhone, iPad, Mac and Android. Indexing 10,000+ jazz standards across 90+ fake books and 300+ play-along volumes. No subscription, no ads.">
+<meta name="twitter:title" content="Real Book & Fake Book Search — 10,000+ Jazz Standards">
+<meta name="twitter:description" content="Find any jazz standard in any real book, fake book or play-along. iPhone, iPad, Mac, Android. Filter by your library. No subscription, no ads.">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -32,7 +45,7 @@
   "name": "Fake Book Index",
   "operatingSystem": "iOS, iPadOS, macOS, Android",
   "applicationCategory": "MusicApplication",
-  "description": "Searchable index of jazz standards across major fake books and play-along series. App for working jazz musicians on iPhone, iPad, Mac and Android. One-time purchase, no subscription.",
+  "description": "Searchable index of jazz standards across The Real Book, New Real Book, major fake books and play-along series. Real book and fake book search app for working jazz musicians on iPhone, iPad, Mac and Android. One-time purchase, no subscription.",
   "url": "https://arm3l.github.io/fbi-data/",
   "downloadUrl": [
     "https://apps.apple.com/app/fake-book-index/id6769004225",
@@ -217,6 +230,54 @@ section p:last-child { margin-bottom: 0; }
   border-radius: 2px;
 }
 
+/* Companion tool link */
+.companion-link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--staffd);
+  margin-top: -20px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.companion-link a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 1px;
+  transition: color 0.15s;
+}
+.companion-link a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+.companion-link strong {
+  font-weight: 500;
+}
+
+/* From the author */
+.from-author {
+  background: var(--cream);
+  padding: 28px 28px 24px;
+  border-left: 3px solid var(--gold);
+}
+.from-author h2 {
+  margin-bottom: 18px;
+}
+.from-author p {
+  margin-bottom: 14px;
+}
+.from-author p:last-of-type {
+  margin-bottom: 0;
+}
+.from-author .signature {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--staffd);
+  margin-top: 18px;
+  letter-spacing: 0.5px;
+}
+
 /* Footer */
 footer {
   margin-top: 56px;
@@ -251,8 +312,8 @@ footer a:hover { text-decoration: underline; }
 </header>
 
 <div class="hero">
-  <h1>Find any jazz standard in <em>any fake book</em>, instantly.</h1>
-  <p class="lede">An app for jazz musicians on iPhone, iPad, Mac and Android. Search 10,000+ standards across 90+ fake books and play-along volumes. Know which book to open before the next chorus.</p>
+  <h1>Find any jazz standard in <em>any real book or fake book</em>, instantly.</h1>
+  <p class="lede">An app for jazz musicians on iPhone, iPad, Mac and Android. Search 10,000+ standards across 90+ real books, fake books and play-along volumes. Know which book to open before the next chorus.</p>
 </div>
 
 <div class="cta-row">
@@ -264,20 +325,22 @@ footer a:hover { text-decoration: underline; }
   </a>
 </div>
 
-<div class="cta-secondary-row">
-  <a class="cta cta-secondary" href="./books-list.html">📋 See indexed books</a>
-</div>
-
 <div class="stats">
   <div class="stat"><span class="num">10,000+</span><span class="lbl">Indexed entries</span></div>
-  <div class="stat"><span class="num">90+</span><span class="lbl">Fake books</span></div>
+  <div class="stat"><span class="num">90+</span><span class="lbl">Real & fake books</span></div>
   <div class="stat"><span class="num">133</span><span class="lbl">Aebersold vols</span></div>
   <div class="stat"><span class="num">177</span><span class="lbl">HL Play-Along vols</span></div>
 </div>
 
+<div class="cta-secondary-row">
+  <a class="cta cta-secondary" href="./books-list.html">📋 See indexed books</a>
+</div>
+
+<p class="companion-link">Reading from scans? <a href="https://arm3l.github.io/pdf-repaginator/" rel="noopener"><strong>PDF Repaginator</strong> realigns your PDF page numbers to match the book.</a> →</p>
+
 <section>
   <h2>What it does</h2>
-  <p>Whether you're learning a new tune, prepping for a gig, or exploring what's in the books on your shelf — Fake Book Index helps you find the right standard in the right book, fast. Type a title or a composer, and see exactly which book and page to open.</p>
+  <p>Whether you're learning a new tune, prepping for a gig, or exploring what's in the books on your shelf, Fake Book Index helps you find the right standard in the right real book or fake book, fast. Type a title or a composer, and see exactly which book and page to open.</p>
   <p>Looking for a play-along to practice with? The same search points you to every Aebersold and Hal Leonard volume that has the tune, with key, tempo and style.</p>
   <p>Built by a working jazz saxophonist for working jazz musicians.</p>
 </section>
@@ -293,6 +356,12 @@ footer a:hover { text-decoration: underline; }
     <li><strong>Auto-updating</strong> — new books and corrections delivered over-the-air without app updates.</li>
     <li><strong>One-time purchase</strong> — no subscription, no ads, no account required.</li>
   </ul>
+</section>
+
+<section>
+  <h2>Real book or fake book?</h2>
+  <p>Both terms refer to the same thing today: a compilation of jazz standards in lead-sheet format (melody, chord symbols, sometimes lyrics). <em>Fake book</em> is the original term, dating back to the 1940s, named after the musician's practice of "faking" a tune from minimal notation. The legendary <em>Real Book</em>, created by Berklee students in the 1970s, was a tongue-in-cheek twist on the name: theirs would be the <em>real</em> one, with more accurate transcriptions than the fake books circulating at the time. The name stuck, and today most working musicians use both terms interchangeably.</p>
+  <p>Fake Book Index covers everything: the original Real Book series (now legally published by Hal Leonard), the New Real Book series from Sher Music, dozens of genre-specific fake books, and the major play-along catalogs.</p>
 </section>
 
 <section>
@@ -314,6 +383,16 @@ footer a:hover { text-decoration: underline; }
 <section>
   <h2>Who it's for</h2>
   <p>Jazz musicians who play from fake books at sessions, gigs, rehearsals, and at home. Students learning the standard repertoire. Teachers preparing setlists. Anyone tired of flipping through six books to find a tune.</p>
+</section>
+
+<section class="from-author">
+  <h2>From a working saxophonist</h2>
+  <p>Hi everyone,</p>
+  <p>I'm a saxophonist, and like many of you I juggle a mix of paper real books at home and scanned versions on tablet for gigs, jam sessions with friends, and those last-minute calls where nobody sends a setlist in advance.</p>
+  <p>At home I used to rely on the excellent online index from Seventh String, but on a smartphone it's not practical, and more than once I found myself somewhere without signal right when I needed it.</p>
+  <p>So I built the tool I wanted to have: Fake Book Index. A fully offline app that searches more than 90 real books, fake books and play-along volumes (The Real Book, New Real Book, Sher Music, Hal Leonard, Aebersold, and many more) and instantly tells you which book contains the tune you're looking for, and on which page.</p>
+  <p>I've also built a companion tool, <a href="https://arm3l.github.io/pdf-repaginator/" rel="noopener">PDF Repaginator</a>, for those of us who read from scanned PDFs on tablet and got tired of doing mental math every time.</p>
+  <p class="signature">— Armel C.</p>
 </section>
 
 <footer>
