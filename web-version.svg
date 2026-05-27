@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 235 460 146" role="img" aria-label="Free Web Version">
+  <title>Free Web Version</title>
+  <style type="text/css">
+    .st0{fill:#FFFFFF;}
+    .st1{fill:none;stroke:#010202;stroke-width:2.7543;stroke-opacity:0.25;}
+    .st2{fill:#010202;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
+  </style>
+  <path class="st0" d="M143,236.2h314c39.6,0,71.6,32.1,71.6,71.6l0,0c0,39.6-32.1,71.6-71.6,71.6H143c-39.6,0-71.6-32.1-71.6-71.6
+    l0,0C71.4,268.2,103.5,236.2,143,236.2z"/>
+  <path class="st1" d="M143,237.5h314c38.8,0,70.2,31.4,70.2,70.2l0,0c0,38.8-31.4,70.2-70.2,70.2H143c-38.8,0-70.2-31.4-70.2-70.2
+    l0,0C72.8,269,104.2,237.5,143,237.5z"/>
+
+  <!-- Content: globe + text, centered in pill (pill spans x=71.4 to x=528.6, center x=300) -->
+  <g transform="translate(124,262.8)">
+    <!-- Globe -->
+    <circle cx="45" cy="45" r="38" fill="none" stroke="#010202" stroke-width="3"/>
+    <ellipse cx="45" cy="45" rx="18" ry="38" fill="none" stroke="#010202" stroke-width="3"/>
+    <line x1="7" y1="45" x2="83" y2="45" stroke="#010202" stroke-width="3"/>
+    <!-- Text -->
+    <text x="110" y="30" class="st2" font-size="18">FREE</text>
+    <text x="110" y="70" class="st2" font-size="36" font-weight="600">Web Version</text>
+  </g>
+</svg>
